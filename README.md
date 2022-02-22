@@ -97,7 +97,7 @@ Programar una función que reciba un vector y retorne si en el mismo existen nú
   b.	bool existe(Diccionario miDiccionario, string palabra, int modo) que indica si la palabra existe dependiendo del modo (si modo vale 1 indica que es española, si vale 2 será inglesa).
   c.	bool traducir(Diccionario miDiccionario, string palabra, int modo) que imprime por pantalla la traducción de la palabra dependiendo del modo que se ingrese. Además, se indicará con un booleano si es que la traducción se realizó satisfactoriamente o no.
 
-## Unidad N - Matrices
+## Unidad 8 - Matrices
 
 1.	Realizar una función que reciba por parámetro una matriz de 3x3 e imprima por pantalla la suma de todos sus elementos.
 2.	Realizar una función que tome por parámetro una matriz de enteros de 3x3 e imprima por pantalla el elemento más chico, el más grande y las posiciones de ambos.
