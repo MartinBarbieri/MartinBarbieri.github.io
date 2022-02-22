@@ -45,7 +45,7 @@
 
 1.	Realizar un programa en el cual el usuario ingrese por consola el nombre de un archivo a abrir, lo lea completamente e imprima su información tal cual está escrita, por pantalla. 
 2.	Realizar un programa en el cual el usuario ingrese por consola el nombre de un archivo a abrir y otro string con un nombre de persona. El archivo contendrá nombres separados por comas. Se deberá indicar por pantalla cuantas veces aparece ese nombre en el archivo (pista: la función getline permitía leer hasta un carácter determinado por nosotros, ¿cual deberíamos usar en este caso?).
-3.	Realizar un programa en el cual el usuario ingrese por consola el nombre de un archivo a crear/abrir con append. El usuario deberá ingresar números de a pares y calcular la suma de cada par: el programa deberá guardar en cada línea del archivo los dos sumandos y el resultado (todo separado por espacios).
+3.	Realizar un programa en el cual el usuario ingrese por consola el nombre de un archivo a crear/abrir. El usuario deberá ingresar números de a pares y calcular la suma de cada par: el programa deberá guardar en cada línea del archivo los dos sumandos y el resultado (todo separado por espacios).
 4.	Realizar un programa en el cual el usuario ingrese por consola el nombre de un archivo a abrir y lea las sumas escritas en el formato del ejercicio anterior. Por cada línea que no sea correcta, deberá indicar por pantalla “La línea X es incorrecta. Debía sumar A + B = C y dió D”.
 
 ## Unidad 5 - Funciones
@@ -58,8 +58,9 @@
         5. Salir
 2.	Realizar una función que reciba dos valores: horas y minutos y muestre por pantalla cuánto tiempo falta para las 12:05 hs.
 3.	Realizar una función que reciba como argumento dos números y retorne su suma.
-4.	Realizar una función que reciba como argumento dos números y una operación matemática (+, -, *, /) y retorne el resultado de la operación.
+4.	En el mismo programa que el ejercicio 1, realizar una función que reciba como argumento dos números y una operación matemática (+, -, *, /) y retorne el resultado de la operación.
 5.	Realizar una función que muestre el menú que desarrollamos antes (utilizando la misma función), pida dos números al usuario y una opción del menú y muestre en pantalla el resultado (utilizar la función del ejercicio anterior).
+### Pasaje por referencia
 6.	Realizar una función que reciba una variable numérica. La función debe pedir al usuario un número y almacenarlo en la variable.
 7.	Realizar una función que reciba una cadena de texto y un carácter. La función debe añadir al final de la cadena el carácter enviado.
 8.	Realizar una función que reciba un número real y un operador aritmético (+, -). En el caso de recibir ‘+’ la función debe sumarle uno al número y en el caso de recibir ‘-’ debe restarle uno.
@@ -76,11 +77,15 @@
 8.	Realizar una función que reciba dos vectores ordenados y devuelva el vector resultante de concatenarlos de manera que esté ordenado. Por ejemplo: [1,4,7,10], [2,5,6,8] -> [1,2,4,5,6,7,8,10]. Complejidad requerida: O(n1 + n2), siendo ni la cantidad de elementos del vector i.
 9.	Suponer que tenemos tres vectores ordenados y que sabemos que hay un elemento en común entre ellos. Programar una función que reciba los tres vectores y retorne un vector con los índices donde está dicho elemento. Por ejemplo: [1,3,4], [3,5,7], [1,2,3] -> [1,0,2]. Complejidad requerida: O(n1 + n2 + n3), siendo ni la cantidad de elementos del vector i.
 10.	Realizar una función que reciba un vector de números enteros entre 1 y 3 y lo devuelva ordenado. Por ejemplo: [1,2,1,1,3,3] -> [1,1,1,2,3,3]. Complejidad requerida: O(n), siendo n la cantidad de elementos del vector.
-11.	Decimos que tres números a,b y c son triangulares si se cumple que:
+11.	Realizar una funcion que reciba un entero y devuela un vector con los factores primos del mismo. Los factores primos de un número entero son los números primos divisores exactos de ese número entero. Ejemplos: los factores primos de 6 son 2 y 3. Factores primos de 7 es 7.
+12.	Realizar una función que dado un vector de enteros devuelva ese mismo vector, pero sin los numeros duplicados. Por ekemplo: [1,1,2,1,1,2,3,2,3,3] -> [1,2,3]
+13.	Realizar una función que reciba un vector y un entero y devuelva el vector dado rotadas las posiciones de los elementos tantas veces como haya indicado el entero del vector. Por ejemplo: [1,2,3,4,5,6] y el número 2 debería dar: [3,4,5,6,1,2]
+14.	Decimos que tres números a,b y c son triangulares si se cumple que:
 a.	a < b+c
 b.	b < a+c
 c.	c < a+b
 Programar una función que reciba un vector y retorne si en el mismo existen números triangulares. Complejidad requerida: O(n2). Pista: ¿qué algoritmo vimos que tenía complejidad cuadrática?
+
 
 ## Unidad 7 - Estructuras
 
