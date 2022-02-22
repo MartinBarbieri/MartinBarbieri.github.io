@@ -1,13 +1,15 @@
 
-# Laboratorio de algoritmo y estructura de datos 🤠
+# Laboratorio de algoritmo y estructura de datos
 
-## Unidad 1
+## Unidad 1 - Introducción al laboratorio
 
+### Variables
 1.	Mostrar el promedio de dos números ingresados por usuario.
 2.	Calcular el área de un triángulo siendo la base y la altura ingresadas por el usuario (recordatorio: area_t = (base * altura) / 2 para cualquier tipo de triángulo).
 3.	Realizar las cuatro operaciones básicas con dos números ingresados por el usuario.
 4.	Calcular cuántos años cumple una persona este año (no importa si ya los cumplió) conociendo el año de su nacimiento.
 5.	Mostrar en pantalla el % de hombres y el % de mujeres que integran un grupo. La cantidad de hombres y mujeres son valores ingresados por el usuario.
+### Estructuras de control
 6.	Realizar un programa donde el usuario ingrese dos números y se muestre cuál es el mayor.
 7.	Modificar el programa del ejercicio 3 para que se muestre un mensaje de error si se intenta dividir por cero (recordatorio: 0/k = 0, k/0 = indefinido para cualquier k).
 8.	Realizar un programa donde el usuario ingrese una cantidad de libros en una librería en la cual todos los libros cuestan $300 pero llevando más de 5 libros cuestan $250 c/u y que retorne el monto total.
