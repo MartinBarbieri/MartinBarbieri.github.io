@@ -37,9 +37,8 @@
 6.	Realizar un programa que haga manualmente lo que haría ‘==’ para cadenas: retornar si ambas son iguales o no en función de sus caracteres.
 7.	Realizar un programa que reciba una cadena de texto y una letra minúscula y cambie a mayúsculas todas las letras de la cadena que sean iguales a ésta. Luego mostrar la cadena modificada.
 8.	Dadas dos palabras de igual longitud, se deben intercalar y mostrar por pantalla. Por ejemplo: “hola” y ”casa” debería dar “hcoalsaa”.
-9.	Dada una palabra, modificarla para que al finalizar el programa contenga su reverso. Ejemplo: palabra = “asado” -> palabra = “odasa”.
-10.	Dada una palabra, revisar si se lee igual de adelante para atrás que de atrás para adelante (palíndromo).
-11.	Dadas dos palabras p1 y p2, comprobar si p1 está en p2. Ejemplo: p1 = “no” y p2 = “océano”.
+9.	Dada una palabra, revisar si se lee igual de adelante para atrás que de atrás para adelante (palíndromo).
+10.	Dadas dos palabras p1 y p2, comprobar si p1 está en p2. Ejemplo: p1 = “no” y p2 = “océano”.
 
 ## Unidad 4 - Archivos
 
