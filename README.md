@@ -17,7 +17,6 @@
 8.	Realizar un programa donde el usuario ingrese una cantidad de libros en una librería en la cual todos los libros cuestan $300 pero llevando más de 5 libros cuestan $250 c/u y que retorne el monto total.
 
 <!-- 9.	Realizar un programa donde el usuario ingrese números constantemente y se vayan mostrando en pantalla multiplicados por 2. Si el usuario ingresa 0 el programa deberá finalizar.
-
 10.	Realizar un programa donde el usuario ingresa números. Al ingresar el número 0, deberá mostrar la suma total de todos los números ingresados por pantalla.
 11.	Realizar un programa donde se ingresen dos números (primero el menor, luego el mayor) y se muestren todos los números intermedios (incluyendo los extremos).
 12.	Realizar un programa donde el usuario ingrese un número y que muestre por pantalla si el mismo es par o impar.
@@ -125,6 +124,6 @@ En todo momento debe pedir valores menores a 40, de lo contrario se debe volver 
 7.	Realizar una función que tome por parámetro dos matrices de 3x3 e imprima por pantalla todos sus elementos en común.
 8.	Realizar una función que tome por parámetro un vector de 5 posiciones, una matriz de 5 columnas y un entero que indique la cantidad de filas de la matriz. Se debe buscar si existe una fila en la matriz que sea exactamente el vector e imprimir la respuesta.
 9.	Realizar una función similar a la anterior, aunque esta vez la matriz será de 4x4, el vector de 4 posiciones y se debe imprimir si el vector es exactamente igual a alguna columna de la matriz o no.
-10.	Realizar una función que tome por parámetro una matriz de 4x4, sume sus filas como si fueran vectores (recordar que en matemática, si sumamos los vectores (a,b,c)+(d,e,f) nos da (a+d,b+e,c+f)). Debe almacenar la suma en un vector e imprimirlo.
+10.	Realizar una función que tome por parámetro una matriz de 4x4, sume sus filas como si fueran vectores (recordar que en matemática, si sumamos los vectores (a,b,c)+(d,e,f) nos da (a+d,b+e,c+f)). Debe almacenar la suma en un vector e imprimirlo. -->
 
- -->
+ 
