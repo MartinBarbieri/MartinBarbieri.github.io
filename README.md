@@ -9,6 +9,7 @@
 3.	Realizar las cuatro operaciones básicas con dos números ingresados por el usuario.
 4.	Calcular cuántos años cumple una persona este año (no importa si ya los cumplió) conociendo el año de su nacimiento.
 5.	Mostrar en pantalla el % de hombres y el % de mujeres que integran un grupo. La cantidad de hombres y mujeres son valores ingresados por el usuario.
+
 <!-- ### Estructuras de control
 6.	Realizar un programa donde el usuario ingrese dos números y se muestre cuál es el mayor.
 7.	Modificar el programa del ejercicio 3 para que se muestre un mensaje de error si se intenta dividir por cero (recordatorio: 0/k = 0, k/0 = indefinido para cualquier k).
@@ -121,5 +122,6 @@ En todo momento debe pedir valores menores a 40, de lo contrario se debe volver 
 7.	Realizar una función que tome por parámetro dos matrices de 3x3 e imprima por pantalla todos sus elementos en común.
 8.	Realizar una función que tome por parámetro un vector de 5 posiciones, una matriz de 5 columnas y un entero que indique la cantidad de filas de la matriz. Se debe buscar si existe una fila en la matriz que sea exactamente el vector e imprimir la respuesta.
 9.	Realizar una función similar a la anterior, aunque esta vez la matriz será de 4x4, el vector de 4 posiciones y se debe imprimir si el vector es exactamente igual a alguna columna de la matriz o no.
-10.	Realizar una función que tome por parámetro una matriz de 4x4, sume sus filas como si fueran vectores (recordar que en matemática, si sumamos los vectores (a,b,c)+(d,e,f) nos da (a+d,b+e,c+f)). Debe almacenar la suma en un vector e imprimirlo
+10.	Realizar una función que tome por parámetro una matriz de 4x4, sume sus filas como si fueran vectores (recordar que en matemática, si sumamos los vectores (a,b,c)+(d,e,f) nos da (a+d,b+e,c+f)). Debe almacenar la suma en un vector e imprimirlo.
+
  -->
