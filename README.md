@@ -17,6 +17,7 @@
 8.	Realizar un programa donde el usuario ingrese una cantidad de libros en una librería en la cual todos los libros cuestan $300 pero llevando más de 5 libros cuestan $250 c/u y que retorne el monto total.
 
 <!-- 9.	Realizar un programa donde el usuario ingrese números constantemente y se vayan mostrando en pantalla multiplicados por 2. Si el usuario ingresa 0 el programa deberá finalizar.
+
 10.	Realizar un programa donde el usuario ingresa números. Al ingresar el número 0, deberá mostrar la suma total de todos los números ingresados por pantalla.
 11.	Realizar un programa donde se ingresen dos números (primero el menor, luego el mayor) y se muestren todos los números intermedios (incluyendo los extremos).
 12.	Realizar un programa donde el usuario ingrese un número y que muestre por pantalla si el mismo es par o impar.
