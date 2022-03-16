@@ -15,13 +15,12 @@
 6.	Realizar un programa donde el usuario ingrese dos números y se muestre cuál es el mayor.
 7.	Modificar el programa del ejercicio 3 para que se muestre un mensaje de error si se intenta dividir por cero (recordatorio: 0/k = 0, k/0 = indefinido para cualquier k). 
 8.	Realizar un programa donde el usuario ingrese una cantidad de libros en una librería en la cual todos los libros cuestan $300 pero llevando más de 5 libros cuestan $250 c/u y que retorne el monto total.
-
-<!-- 9.	Realizar un programa donde el usuario ingrese números constantemente y se vayan mostrando en pantalla multiplicados por 2. Si el usuario ingresa 0 el programa deberá finalizar.
+9.	Realizar un programa donde el usuario ingrese números constantemente y se vayan mostrando en pantalla multiplicados por 2. Si el usuario ingresa 0 el programa deberá finalizar.
 10.	Realizar un programa donde el usuario ingresa números. Al ingresar el número 0, deberá mostrar la suma total de todos los números ingresados por pantalla.
 11.	Realizar un programa donde se ingresen dos números (primero el menor, luego el mayor) y se muestren todos los números intermedios (incluyendo los extremos).
 12.	Realizar un programa donde el usuario ingrese un número y que muestre por pantalla si el mismo es par o impar.
 
-## Unidad 2 - Tipos de datos
+<!--  ## Unidad 2 - Tipos de datos
 
 1.	Realizar un programa donde el usuario ingrese un número y que muestre por pantalla si el mismo es par o impar utilizando el operador módulo (recordatorio: 5%2 => 1).
 2.	Mismo problema que antes solo que ahora no se pueden usar ni el operador módulo ni la estructura while (pista: ¿qué pasaba cuando dividíamos un entero por otro y el resultado tenía decimales?).
