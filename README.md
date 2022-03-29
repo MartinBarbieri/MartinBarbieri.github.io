@@ -31,7 +31,9 @@
 
 
 
+
 ## Unidad 3 - Strings
+
 
 
 1.	Realizar un programa donde el usuario ingrese una palabra y se muestren todas las letras de la palabra separadas por un salto de línea (una letra por renglón).
@@ -44,6 +46,7 @@
 8.	Dadas dos palabras de igual longitud, se deben intercalar y mostrar por pantalla. Por ejemplo: “hola” y ”casa” debería dar “hcoalsaa”.
 9.	Dada una palabra, revisar si se lee igual de adelante para atrás que de atrás para adelante (palíndromo).
 10.	Dadas dos palabras p1 y p2, comprobar si p1 está en p2. Ejemplo: p1 = “no” y p2 = “océano”.
+
 
 
 <!--   ## Unidad 4 - Archivos
