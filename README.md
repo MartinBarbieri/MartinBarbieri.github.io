@@ -29,12 +29,7 @@
 5.	Realizar un programa que le pida un carácter al usuario y muestre por pantalla su número ascii asociado.
 6.	Realizar un programa que le pida una letra al usuario y muestre por pantalla si la letra es mayúscula o minúscula. Si el usuario ingresa un carácter que no sea una letra (un número o símbolo) pedir que se vuelva a ingresar (pista: ¿cuáles son los números ascii asociados a las letras mayúsculas y cuáles a las minúsculas?).
 
-
-
-
 ## Unidad 3 - Strings
-
-
 
 1.	Realizar un programa donde el usuario ingrese una palabra y se muestren todas las letras de la palabra separadas por un salto de línea (una letra por renglón).
 2.	Realizar un programa donde el usuario ingrese dos cadenas de texto y el programa compare la última letra de ambas cadenas y muestre si son o no iguales.
