@@ -30,7 +30,7 @@
 6.	Realizar un programa que le pida una letra al usuario y muestre por pantalla si la letra es mayúscula o minúscula. Si el usuario ingresa un carácter que no sea una letra (un número o símbolo) pedir que se vuelva a ingresar (pista: ¿cuáles son los números ascii asociados a las letras mayúsculas y cuáles a las minúsculas?).
 
 
-<!--  ## Unidad 3 - Strings
+## Unidad 3 - Strings
 
 
 1.	Realizar un programa donde el usuario ingrese una palabra y se muestren todas las letras de la palabra separadas por un salto de línea (una letra por renglón).
@@ -44,7 +44,8 @@
 9.	Dada una palabra, revisar si se lee igual de adelante para atrás que de atrás para adelante (palíndromo).
 10.	Dadas dos palabras p1 y p2, comprobar si p1 está en p2. Ejemplo: p1 = “no” y p2 = “océano”.
 
-## Unidad 4 - Archivos
+
+<!--   ## Unidad 4 - Archivos
 
 1.	Realizar un programa en el cual el usuario ingrese por consola el nombre de un archivo a abrir, lo lea completamente e imprima su información tal cual está escrita, por pantalla. 
 2.	Realizar un programa en el cual el usuario ingrese por consola el nombre de un archivo a abrir y otro string con un nombre de persona. El archivo contendrá nombres separados por comas. Se deberá indicar por pantalla cuantas veces aparece ese nombre en el archivo (pista: la función getline permitía leer hasta un carácter determinado por nosotros, ¿cual deberíamos usar en este caso?).
