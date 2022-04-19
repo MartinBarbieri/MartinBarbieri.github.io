@@ -43,15 +43,15 @@
 10.	Dadas dos palabras p1 y p2, comprobar si p1 está en p2. Ejemplo: p1 = “no” y p2 = “océano”.
 
 
-
-<!--   ## Unidad 4 - Archivos
+## Unidad 4 - Archivos
 
 1.	Realizar un programa en el cual el usuario ingrese por consola el nombre de un archivo a abrir, lo lea completamente e imprima su información tal cual está escrita, por pantalla. 
 2.	Realizar un programa en el cual el usuario ingrese por consola el nombre de un archivo a abrir y otro string con un nombre de persona. El archivo contendrá nombres separados por comas. Se deberá indicar por pantalla cuantas veces aparece ese nombre en el archivo (pista: la función getline permitía leer hasta un carácter determinado por nosotros, ¿cual deberíamos usar en este caso?).
 3.	Realizar un programa en el cual el usuario ingrese por consola el nombre de un archivo a crear/abrir. El usuario deberá ingresar números de a pares y calcular la suma de cada par: el programa deberá guardar en cada línea del archivo los dos sumandos y el resultado (todo separado por espacios).
 4.	Realizar un programa en el cual el usuario ingrese por consola el nombre de un archivo a abrir y lea las sumas escritas en el formato del ejercicio anterior. Por cada línea que no sea correcta, deberá indicar por pantalla “La línea X es incorrecta. Debía sumar A + B = C y dió D”.
 
-## Unidad 5 - Funciones
+
+<!--   ## Unidad 5 - Funciones
 
 1.	Realizar una función que muestre el siguiente menú: 	
         1. Suma
