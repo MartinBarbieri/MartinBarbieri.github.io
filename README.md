@@ -59,6 +59,9 @@ archivo1.txt   |     archivo2.txt   |   archivoGenerado.txt
 17:188:22      |     15:881:44      |
 20:111:42      |     20:454:313     |
 
+![image](https://user-images.githubusercontent.com/63014289/164120855-4e0fca74-3726-4005-95cb-0b7c323e6efc.png)
+
+
 8.  Realizar un gestor de archivos que muestre el siguiente menú:
               1. Abrir archivo.
               2. Eliminar archivo.
