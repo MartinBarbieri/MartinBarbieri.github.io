@@ -49,8 +49,24 @@
 2.	Realizar un programa en el cual el usuario ingrese por consola el nombre de un archivo a abrir y otro string con un nombre de persona. El archivo contendrá nombres separados por comas. Se deberá indicar por pantalla cuantas veces aparece ese nombre en el archivo (pista: la función getline permitía leer hasta un carácter determinado por nosotros, ¿cual deberíamos usar en este caso?).
 3.	Realizar un programa en el cual el usuario ingrese por consola el nombre de un archivo a crear/abrir. El usuario deberá ingresar números de a pares y calcular la suma de cada par: el programa deberá guardar en cada línea del archivo los dos sumandos y el resultado (todo separado por espacios).
 4.	Realizar un programa en el cual el usuario ingrese por consola el nombre de un archivo a abrir y lea las sumas escritas en el formato del ejercicio anterior. Por cada línea que no sea correcta, deberá indicar por pantalla “La línea X es incorrecta. Debía sumar A + B = C y dió D”.
+5.	Realizar un programa que lea un archivo "fichero.txt" y escriba en otro archivo "fichero2.txt" el contenido del primer archivo, pero con todas letras mayúsculas.
+6.      Realizar un programa que lea dos archivos de texto y genere un nuevo archivo que contenga las líneas que sean distintas en cada archivo.
+7.      Dados dos archivos en los que cada línea es una serie de números separados por ":" realizar un programa que lea ambos archivos línea por línea y escriba en un nuevo archivo las líneas comunes en ambos. Ejemplo:
 
+archivo1.txt   |     archivo2.txt   |   archivoGenerado.txt
+10:454:23      |     10:334:110     |   10:454:15:22:20
+15:1:24:67     |     12:222:22      | 
+17:188:22      |     15:881:44      |
+20:111:42      |     20:454:313     |
 
+8.      Realizar un gestor de archivos que muestre el siguiente menú:
+
+              1. Abrir archivo.
+              2. Eliminar archivo.
+              3. Renombrar archivo.
+              
+        En todos los casos el usuario me ingresará con qué archivo querrá trabajar. Si presiona la opción 1, se mostrará el contenido del archivo por pantalla, con la opción 2 se eliminará el archivo y con la opción número 3 hay que cambiarle el nombre. Para que finalice le programa deberá tocar el botón 0. 
+        
 <!--   ## Unidad 5 - Funciones
 
 1.	Realizar una función que muestre el siguiente menú: 	
