@@ -60,11 +60,9 @@ archivo1.txt   |     archivo2.txt   |   archivoGenerado.txt
 20:111:42      |     20:454:313     |
 
 8.  Realizar un gestor de archivos que muestre el siguiente menú:
-
               1. Abrir archivo.
               2. Eliminar archivo.
-              3. Renombrar archivo.
-              
+              3. Renombrar archivo.     
         En todos los casos el usuario me ingresará con qué archivo querrá trabajar. Si presiona la opción 1, se mostrará el contenido del archivo por pantalla, con la opción 2 se eliminará el archivo y con la opción número 3 hay que cambiarle el nombre. Para que finalice le programa deberá tocar el botón 0. 
         
 <!--   ## Unidad 5 - Funciones
