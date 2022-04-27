@@ -60,7 +60,7 @@
               3. Renombrar archivo.     
         En todos los casos el usuario me ingresará con qué archivo querrá trabajar. Si presiona la opción 1, se mostrará el contenido del archivo por pantalla, con la opción 2 se eliminará el archivo y con la opción número 3 hay que cambiarle el nombre. Para que finalice le programa deberá tocar el botón 0. 
         
-<!--   ## Unidad 5 - Funciones
+## Unidad 5 - Funciones
 
 1.	Realizar una función que muestre el siguiente menú: 	
         1. Suma
@@ -72,6 +72,8 @@
 3.	Realizar una función que reciba como argumento dos números y retorne su suma.
 4.	En el mismo programa que el ejercicio 1, realizar una función que reciba como argumento dos números y una operación matemática (+, -, *, /) y retorne el resultado de la operación.
 5.	Realizar una función que muestre el menú que desarrollamos antes (utilizando la misma función), pida dos números al usuario y una opción del menú y muestre en pantalla el resultado (utilizar la función del ejercicio anterior).
+
+<!--
 ### Pasaje por referencia
 6.	Realizar una función que reciba una variable numérica. La función debe pedir al usuario un número y almacenarlo en la variable.
 7.	Realizar una función que reciba una cadena de texto y un carácter. La función debe añadir al final de la cadena el carácter enviado.
