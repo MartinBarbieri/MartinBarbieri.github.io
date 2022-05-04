@@ -72,6 +72,9 @@
 3.	Realizar una función que reciba como argumento dos números y retorne su suma.
 4.	En el mismo programa que el ejercicio 1, realizar una función que reciba como argumento dos números y una operación matemática (+, -, *, /) y retorne el resultado de la operación.
 5.	Realizar una función que muestre el menú que desarrollamos antes (utilizando la misma función), pida dos números al usuario y una opción del menú y muestre en pantalla el resultado (utilizar la función del ejercicio anterior).
+6.	Crear una función que reciba dos números y devuelva True si el segundo es divisor del primero o false si el segundo número no divide al primero.
+7.	Realizar una función que reciba como parametros dos números y retorne el resulado de elevar el primer numero al segundo
+8.	Convertir el ejercicio 8 de Archivos en funciones donde cada opcón del menú sea una función distinta. Todas las funciones deberán retornar algo para que el usuario vea que el programa hace lo que pidió
 
 <!--
 ### Pasaje por referencia
