@@ -78,10 +78,11 @@
 
 <!--
 ### Pasaje por referencia
-6.	Realizar una función que reciba una variable numérica. La función debe pedir al usuario un número y almacenarlo en la variable.
-7.	Realizar una función que reciba una cadena de texto y un carácter. La función debe añadir al final de la cadena el carácter enviado.
-8.	Realizar una función que reciba un número real y un operador aritmético (+, -). En el caso de recibir ‘+’ la función debe sumarle uno al número y en el caso de recibir ‘-’ debe restarle uno.
-
+9.	Realizar una función que reciba una variable numérica. La función debe pedir al usuario un número y almacenarlo en la variable.
+10.	Realizar una función que reciba una cadena de texto y un carácter. La función debe añadir al final de la cadena el carácter enviado.
+11.	Realizar una función que reciba un número real y un operador aritmético (+, -). En el caso de recibir ‘+’ la función debe sumarle uno al número y en el caso de recibir ‘-’ debe restarle uno.
+ -->
+ 
 ## Unidad 6 - Vectores
 
 1.	Realizar un programa donde el usuario ingrese 10 números, luego se ingresa otro numero, el programa debe comprobar si ese número está en la lista de los 10 números anteriores.
@@ -90,10 +91,10 @@
 4.	Realizar una función que reciba un vector de números e imprima por pantalla si está ordenado de forma ascendente. Por ejemplo: [1,1,2,3] está ordenado ascendentemente.
 5.	Realizar una función que reciba dos vectores, corrobore que son del mismo tamaño y si es así, guarde la suma (posición a posición) en un nuevo vector e imprima la suma por pantalla. De lo contrario imprime que son de distinto tamaño. Por ejemplo: [1,2,3] + [4,5,6] = [5,7,9]
 6.	Realizar una función que reciba un vector de tipo float e imprima su reverso. Por ejemplo: [5.3, 4.5, 3.9, 8.1] -> [8.1, 3.9, 4.5, 5.3]
-7.	Realizar una función que reciba un vector ordenado de menor a mayor de números enteros y un entero y devuelva true si el número se encuentra en el vector. Por ejemplo: [1,5,7,8,13], 5 -> true, [1,5,7,8,13], 2 -> false.
-8.	Realizar una función que reciba dos vectores ordenados y devuelva el vector resultante de concatenarlos de manera que esté ordenado. Por ejemplo: [1,4,7,10], [2,5,6,8] -> [1,2,4,5,6,7,8,10]. Complejidad requerida: O(n1 + n2), siendo ni la cantidad de elementos del vector i.
-9.	Suponer que tenemos tres vectores ordenados y que sabemos que hay un elemento en común entre ellos. Programar una función que reciba los tres vectores y retorne un vector con los índices donde está dicho elemento. Por ejemplo: [1,3,4], [3,5,7], [1,2,3] -> [1,0,2]. Complejidad requerida: O(n1 + n2 + n3), siendo ni la cantidad de elementos del vector i.
-10.	Realizar una función que reciba un vector de números enteros entre 1 y 3 y lo devuelva ordenado. Por ejemplo: [1,2,1,1,3,3] -> [1,1,1,2,3,3]. Complejidad requerida: O(n), siendo n la cantidad de elementos del vector.
+7.	Realizar una función que reciba un vector ordenado de menor a mayor de números enteros y un entero y devuelva true si el número se encuentra en el vector. Por ejemplo: [1,5,7,8,13], 5 -> true, [1,5,7,8,13], 2 -> false. <!--
+8.	Realizar una función que reciba dos vectores ordenados y devuelva el vector resultante de concatenarlos de manera que esté ordenado. Por ejemplo: [1,4,7,10], [2,5,6,8] -> [1,2,4,5,6,7,8,10]. 
+9.	Suponer que tenemos tres vectores ordenados y que sabemos que hay un elemento en común entre ellos. Programar una función que reciba los tres vectores y retorne un vector con los índices donde está dicho elemento. Por ejemplo: [1,3,4], [3,5,7], [1,2,3] -> [1,0,2]. 
+10.	Realizar una función que reciba un vector de números enteros entre 1 y 3 y lo devuelva ordenado. Por ejemplo: [1,2,1,1,3,3] -> [1,1,1,2,3,3].
 11.	Realizar una funcion que reciba un entero y devuela un vector con los factores primos del mismo. Los factores primos de un número entero son los números primos divisores exactos de ese número entero. Ejemplos: los factores primos de 6 son 2 y 3. Factores primos de 7 es 7.
 12.	Realizar una función que dado un vector de enteros devuelva ese mismo vector, pero sin los numeros duplicados. Por ekemplo: [1,1,2,1,1,2,3,2,3,3] -> [1,2,3]
 13.	Realizar una función que reciba un vector y un entero y devuelva el vector dado rotadas las posiciones de los elementos tantas veces como haya indicado el entero del vector. Por ejemplo: [1,2,3,4,5,6] y el número 2 debería dar: [3,4,5,6,1,2]
@@ -101,7 +102,7 @@
 a.	a < b+c
 b.	b < a+c
 c.	c < a+b
-Programar una función que reciba un vector y retorne si en el mismo existen números triangulares. Complejidad requerida: O(n2). Pista: ¿qué algoritmo vimos que tenía complejidad cuadrática?
+Programar una función que reciba un vector y retorne si en el mismo existen números triangulares. 
 
 
 ## Unidad 7 - Estructuras
