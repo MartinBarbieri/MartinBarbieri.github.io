@@ -91,7 +91,7 @@
 4.	Realizar una función que reciba un vector de números e imprima por pantalla si está ordenado de forma ascendente. Por ejemplo: [1,1,2,3] está ordenado ascendentemente.
 5.	Realizar una función que reciba dos vectores, corrobore que son del mismo tamaño y si es así, guarde la suma (posición a posición) en un nuevo vector e imprima la suma por pantalla. De lo contrario imprime que son de distinto tamaño. Por ejemplo: [1,2,3] + [4,5,6] = [5,7,9]
 6.	Realizar una función que reciba un vector de tipo float e imprima su reverso. Por ejemplo: [5.3, 4.5, 3.9, 8.1] -> [8.1, 3.9, 4.5, 5.3]
-7.	Realizar una función que reciba un vector ordenado de menor a mayor de números enteros y un entero y devuelva true si el número se encuentra en el vector. Por ejemplo: [1,5,7,8,13], 5 -> true, [1,5,7,8,13], 2 -> false. <!--
+7.	Realizar una función que reciba un vector ordenado de menor a mayor de números enteros y un entero y devuelva true si el número se encuentra en el vector. Por ejemplo: [1,5,7,8,13], 5 -> true, [1,5,7,8,13], 2 -> false. 
 8.	Realizar una función que reciba dos vectores ordenados y devuelva el vector resultante de concatenarlos de manera que esté ordenado. Por ejemplo: [1,4,7,10], [2,5,6,8] -> [1,2,4,5,6,7,8,10]. 
 9.	Suponer que tenemos tres vectores ordenados y que sabemos que hay un elemento en común entre ellos. Programar una función que reciba los tres vectores y retorne un vector con los índices donde está dicho elemento. Por ejemplo: [1,3,4], [3,5,7], [1,2,3] -> [1,0,2]. 
 10.	Realizar una función que reciba un vector de números enteros entre 1 y 3 y lo devuelva ordenado. Por ejemplo: [1,2,1,1,3,3] -> [1,1,1,2,3,3].
@@ -104,6 +104,7 @@ b.	b < a+c
 c.	c < a+b
 Programar una función que reciba un vector y retorne si en el mismo existen números triangulares. 
 
+<!--
 
 ## Unidad 7 - Estructuras
 
