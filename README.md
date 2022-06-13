@@ -99,9 +99,9 @@
 12.	Realizar una función que dado un vector de enteros devuelva ese mismo vector, pero sin los numeros duplicados. Por ekemplo: [1,1,2,1,1,2,3,2,3,3] -> [1,2,3]
 13.	Realizar una función que reciba un vector y un entero y devuelva el vector dado rotadas las posiciones de los elementos tantas veces como haya indicado el entero del vector. Por ejemplo: [1,2,3,4,5,6] y el número 2 debería dar: [3,4,5,6,1,2]
 14.	Decimos que tres números a,b y c son triangulares si se cumple que:
-a.	a < b+c
-b.	b < a+c
-c.	c < a+b
+    a.	a < b+c
+    b.	b < a+c
+    c.	c < a+b
 Programar una función que reciba un vector y retorne si en el mismo existen números triangulares. 
 
 <!--
