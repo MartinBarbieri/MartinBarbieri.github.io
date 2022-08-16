@@ -76,12 +76,11 @@
 7.	Realizar una función que reciba como parametros dos números y retorne el resulado de elevar el primer numero al segundo
 8.	Convertir el ejercicio 8 de Archivos en funciones donde cada opcón del menú sea una función distinta. Todas las funciones deberán retornar algo para que el usuario vea que el programa hace lo que pidió
 
-<!--
 ### Pasaje por referencia
 9.	Realizar una función que reciba una variable numérica. La función debe pedir al usuario un número y almacenarlo en la variable.
 10.	Realizar una función que reciba una cadena de texto y un carácter. La función debe añadir al final de la cadena el carácter enviado.
 11.	Realizar una función que reciba un número real y un operador aritmético (+, -). En el caso de recibir ‘+’ la función debe sumarle uno al número y en el caso de recibir ‘-’ debe restarle uno.
- -->
+
  
 ## Unidad 6 - Vectores
 
