@@ -103,8 +103,6 @@
     c.	c < a+b
 Programar una función que reciba un vector y retorne si en el mismo existen números triangulares. 
 
-<!--
-
 ## Unidad 7 - Estructuras
 
 1.	Crear un struct Persona, que contenga nombre, apellido y edad. Se deberá:
@@ -119,6 +117,8 @@ Programar una función que reciba un vector y retorne si en el mismo existen nú
   a.	void definir(Diccionario miDiccionario, string palabraEsp, string palabraIng) que toma el diccionario y define una nueva entrada.
   b.	bool existe(Diccionario miDiccionario, string palabra, int modo) que indica si la palabra existe dependiendo del modo (si modo vale 1 indica que es española, si vale 2 será inglesa).
   c.	bool traducir(Diccionario miDiccionario, string palabra, int modo) que imprime por pantalla la traducción de la palabra dependiendo del modo que se ingrese. Además, se indicará con un booleano si es que la traducción se realizó satisfactoriamente o no.
+
+<!--
 
 ## Unidad 8 - Matrices
 
