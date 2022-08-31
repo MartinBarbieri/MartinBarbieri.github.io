@@ -118,8 +118,6 @@ Programar una función que reciba un vector y retorne si en el mismo existen nú
   b.	bool existe(Diccionario miDiccionario, string palabra, int modo) que indica si la palabra existe dependiendo del modo (si modo vale 1 indica que es española, si vale 2 será inglesa).
   c.	bool traducir(Diccionario miDiccionario, string palabra, int modo) que imprime por pantalla la traducción de la palabra dependiendo del modo que se ingrese. Además, se indicará con un booleano si es que la traducción se realizó satisfactoriamente o no.
 
-<!--
-
 ## Unidad 8 - Matrices
 
 1.	Realizar una función que reciba por parámetro una matriz de 3x3 e imprima por pantalla la suma de todos sus elementos.
@@ -140,6 +138,6 @@ En todo momento debe pedir valores menores a 40, de lo contrario se debe volver 
 7.	Realizar una función que tome por parámetro dos matrices de 3x3 e imprima por pantalla todos sus elementos en común.
 8.	Realizar una función que tome por parámetro un vector de 5 posiciones, una matriz de 5 columnas y un entero que indique la cantidad de filas de la matriz. Se debe buscar si existe una fila en la matriz que sea exactamente el vector e imprimir la respuesta.
 9.	Realizar una función similar a la anterior, aunque esta vez la matriz será de 4x4, el vector de 4 posiciones y se debe imprimir si el vector es exactamente igual a alguna columna de la matriz o no.
-10.	Realizar una función que tome por parámetro una matriz de 4x4, sume sus filas como si fueran vectores (recordar que en matemática, si sumamos los vectores (a,b,c)+(d,e,f) nos da (a+d,b+e,c+f)). Debe almacenar la suma en un vector e imprimirlo. -->
+10.	Realizar una función que tome por parámetro una matriz de 4x4, sume sus filas como si fueran vectores (recordar que en matemática, si sumamos los vectores (a,b,c)+(d,e,f) nos da (a+d,b+e,c+f)). Debe almacenar la suma en un vector e imprimirlo. 
 
  
