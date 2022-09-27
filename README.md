@@ -139,5 +139,17 @@ En todo momento debe pedir valores menores a 40, de lo contrario se debe volver 
 8.	Realizar una función que tome por parámetro un vector de 5 posiciones, una matriz de 5 columnas y un entero que indique la cantidad de filas de la matriz. Se debe buscar si existe una fila en la matriz que sea exactamente el vector e imprimir la respuesta.
 9.	Realizar una función similar a la anterior, aunque esta vez la matriz será de 4x4, el vector de 4 posiciones y se debe imprimir si el vector es exactamente igual a alguna columna de la matriz o no.
 10.	Realizar una función que tome por parámetro una matriz de 4x4, sume sus filas como si fueran vectores (recordar que en matemática, si sumamos los vectores (a,b,c)+(d,e,f) nos da (a+d,b+e,c+f)). Debe almacenar la suma en un vector e imprimirlo. 
+11. En una tienda de productos de limpieza se desea calcular el total de ganancia que produjo dicho negocio este mes. Cada producto cuenta con un precio de costo, precio de venta, código y cantidad vendida hasta el momento en que se consulta.
+Además, en la tienda trabajan empleados de los que se necesita saber el dni, nombre, apellido, fecha de nacimiento, fecha que ingreso a la empresa y localidad en la que viven. Cada vendedor tiene asignado para vender una determinada cantidad de productos. Esto se organiza con una matriz de forma que cada fila será un empleado distinto donde la primera columna es el empleado y el resto de las columnas corresponden a cada producto que tiene a cargo de vender.
+Si bien los empleados tienen un sueldo fijo, por cada unidad vendida del producto que tienen a cargo se les suma a su sueldo fijo la ganancia de ese producto (precio de venta-precio de costo)
+Para poder gestionar el sistema de stock de productos y administración del personal realizar un programa que me permita:
+  1.  Dar de alta nuevos producto, eliminar y modificarlos. (Al darlos de alta habrá que asignárselos a un vendedor)
+  2.  Dar de alta nuevos empleados, eliminar y modificarlos.
+  3.  Calcular la ganancia promedio de los productos que se venden.
+  4.  Nombre del empleado con mayor antigüedad en el trabajo junto con la fecha en que inició.
+  5.  Código del producto que se vendió más.
+  6.  Imprimir el dni, nombre de cada empleado junto con el nombre del último producto que se les añadió para vender.
+  7.  Imprimir la fecha de nacimiento del empleado más grande en edad y el más joven.
+
 
  
