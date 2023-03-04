@@ -1,5 +1,5 @@
 
-# Laboratorio de algoritmo y estructura de datos
+<!-- # Laboratorio de algoritmo y estructura de datos 
 
 ## Unidad 1 - Introducción al laboratorio
 
@@ -150,6 +150,47 @@ Para poder gestionar el sistema de stock de productos y administración del pers
     5.  Código del producto que se vendió más.
     6.  Imprimir el dni, nombre de cada empleado junto con el nombre del último producto que se les añadió para vender.
     7.  Imprimir la fecha de nacimiento del empleado más grande en edad y el más joven.
+!-->
 
+ # Laboratorio de programación orientada a objetos
 
+## Unidad 0 - Introducción y repaso al laboratorio
+
+1.	Escribe un programa Java que realice lo siguiente: declarar una variable N de tipo int, una variable A de tipo double y una variable C de tipo char y asigna a cada una un valor. A continuación muestra por pantalla:
+    - El valor de cada variable.
+    -	La suma de N + A
+    -	La diferencia de A - N
+    -	El valor numérico correspondiente al carácter que contiene la variable C.
+
+Si por ejemplo le hemos dado a N el valor 5, a A el valor 4.56 y a C el valor ‘a’, se debe mostrar por pantalla:
+
+    Variable N = 5
+    Variable A = 4.56                                                                                                 
+    Variable C = a
+    5 + 4.56 = 9.559999999999999
+    4.56 - 5 = -0.4400000000000004
+    Valor numérico del carácter a = 97                                                                                
+
+2.	Declara 2 variables numéricas he indica cuál es mayor de los dos. En caso de que sean iguales indicarlo también. (NumeroMayor) 
+
+3.	Muestra los números del 1 al 100 (ambos incluidos) divisibles entre 2 y 3. (DivisibleFor/DivisibleWhile)
+
+4.	Crea una aplicación que nos pida un día de la semana y nos diga si es un día laboral o no. Los días laborales se consideran de lunes a viernes. (DiaLaboral)
+
+5.	Del siguiente String: “Ayer me compré muñecos de la marca ‘Colchitas’ por internet” contar cuantas vocales hay en total y mostrarlo por pantalla. (vocales)
+
+6.  Reemplazar todas las ´e´ del ejercicio anterior por la letra que ingrese el usuario. (ReemplazoLetra).
+
+7.  Crear una aplicación que nos permite insertar números hasta que insertemos un -1. Mostrar la cantidad de números introducidos. 
+
+8.  Al ejercicio anterior, además de la cantidad de números introducidos se debe mostrar:
+  
+  -	Mayor numero introducido.
+  - Menor número introducido.
+  -	Suma de todos los números.
+  -	Suma de los numeros positivos.
+  -	Suma de los numeros negativos.
+  
+9.  Pedir dos palabras al usuario e indicar si son iguales o no. (PalabrasIguales)
  
+
