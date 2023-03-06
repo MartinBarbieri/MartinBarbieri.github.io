@@ -154,6 +154,18 @@ Para poder gestionar el sistema de stock de productos y administración del pers
 
  # Laboratorio de programación orientada a objetos
 
+## Repaso structs 2 CSTC
+
+1)	a.	Crear las estructuras Musico y Banda:
+    - El músico tiene un nombre, un apellido y el instrumento que toca.
+    - La banda tiene espacio para 4 músicos.
+
+    b.	Crear la función agregarMusico que recibe por parámetro una banda. La función debe pedir los datos del músico y comprobar:
+     - Que haya lugar en la banda para el músico.
+     - Que en la banda no haya otro musico que toca el mismo instrumento.
+Si se cumplen ambas condiciones agregarlo a la banda y retornar true. Caso contrario mostrar el error por pantalla y retornar false.
+
+<!--
 ## Unidad 0 - Introducción y repaso al laboratorio
 
 1.	Escribe un programa Java que realice lo siguiente: declarar una variable N de tipo int, una variable A de tipo double y una variable C de tipo char y asigna a cada una un valor. A continuación muestra por pantalla:
@@ -192,5 +204,6 @@ Si por ejemplo le hemos dado a N el valor 5, a A el valor 4.56 y a C el valor �
   -	Suma de los numeros negativos.
   
 9.  Pedir dos palabras al usuario e indicar si son iguales o no. (PalabrasIguales)
- 
+ !-->
+
 
