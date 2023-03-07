@@ -153,8 +153,7 @@ Para poder gestionar el sistema de stock de productos y administración del pers
 !-->
 
  # Laboratorio de programación orientada a objetos
-<!--
-## Repaso structs 2 CSTC
+<!-- ## Repaso structs 2 CSTC
 
 1)	a.	Crear las estructuras Musico y Banda:
     - El músico tiene un nombre, un apellido y el instrumento que toca.
