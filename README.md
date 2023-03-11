@@ -1,6 +1,6 @@
- # Laboratorio de programación orientada a objetos
+# Laboratorio de programación orientada a objetos
  
- ## Repaso structs 2 CSTC
+## Repaso structs 2 CSTC
 
 1)	a.	Crear las estructuras Musico y Banda:
     - El músico tiene un nombre, un apellido y el instrumento que toca.
@@ -13,7 +13,6 @@
     Si se cumplen ambas condiciones agregarlo a la banda y retornar true. Caso contrario mostrar el error por pantalla y retornar false.
     
     c. Crear la función mostrarMusicos que recibe por parámetro todas las bandas que están registradas en el sistema y muestra por cada una de ellas el nombre de la       banda y luego el nombre de todos los integrantes. 
-
 
 
 ## Unidad 0 - Introducción y repaso al laboratorio
