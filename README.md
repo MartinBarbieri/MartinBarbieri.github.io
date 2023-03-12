@@ -88,5 +88,6 @@ Si por ejemplo le hemos dado a N el valor 5, a A el valor 4.56 y a C el valor �
     - vaciarCafetera(): pone la cantidad de café actual en cero.
     - agregarCafe (int cantidad): añade a la cafetera la cantidad de café indicada.
 
+8. Hacer una clase Cancion con los siguientes atributos: titulo y autor. Hacer un constructor parametrizado, un constructor por defecto que inicialice el titulo y el autor a cadenas vacias y los getters y setters de todos los atributos.
     
 
