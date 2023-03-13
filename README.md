@@ -1,18 +1,4 @@
 # Laboratorio de programación orientada a objetos
- 
-## Repaso structs 2 CSTC
-
-1)	a.	Crear las estructuras Musico y Banda:
-    - El músico tiene un nombre, un apellido y el instrumento que toca.
-    - La banda tiene espacio para 4 músicos, pero podría extenderse a más personas en otro momento.
-
-    b.	Crear la función agregarMusico que recibe por parámetro una banda. La función debe pedir los datos del músico y comprobar:
-     - Que haya lugar en la banda para el músico.
-     - Que en la banda no haya otro musico que toca el mismo instrumento.
-    
-    Si se cumplen ambas condiciones agregarlo a la banda y retornar true. Caso contrario mostrar el error por pantalla y retornar false.
-    
-    c. Crear la función mostrarMusicos que recibe por parámetro todas las bandas que están registradas en el sistema y muestra por cada una de ellas el nombre de la       banda y luego el nombre de todos los integrantes. 
 
 
 ## Unidad 0 - Introducción y repaso al laboratorio
