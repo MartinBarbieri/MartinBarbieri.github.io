@@ -54,14 +54,14 @@ Si por ejemplo le hemos dado a N el valor 5, a A el valor 4.56 y a C el valor �
    - Constructor por defecto.
    - Constructor parametrizado con dia, mes y año.
    - valida(): Comprobará si la fecha es correcta. En el caso de que el día no sea correcto, lo pondrá a 1. Si el mes no es correcto, lo pondrá a 1 y si el año no es correcto, lo pondrá a 1900. Será un método auxiliar que se llamará en el constructor parametrizado.
-   -diasMes(int mes): Devolverá el número de días del mes que se le indique.
-   -corta(): mostrará la fecha en formato corto (02-10-2022)
-   -larga(): mostrará la fecha en formato largo (viernes 10 de marzo de 2023)
-   -siguiente(): pasará al día siguiente.
-   -anterior(): pasará al día anterior.
-   -igualQue(Fecha fecha): indica si la fecha es igual a la que recibe por parámetro.
-   -menorQue(Fecha fecha): indica si la fecha es anterior a la que recibe por parámetro.
-   -mayorQue(Fecha fecha): indica si la fecha es posterior a la que recibe por parámetro.
+   - diasMes(int mes): Devolverá el número de días del mes que se le indique.
+   - corta(): mostrará la fecha en formato corto (02-10-2022)
+   - larga(): mostrará la fecha en formato largo (viernes 10 de marzo de 2023)
+   - siguiente(): pasará al día siguiente.
+   - anterior(): pasará al día anterior.
+   - igualQue(Fecha fecha): indica si la fecha es igual a la que recibe por parámetro.
+   - menorQue(Fecha fecha): indica si la fecha es anterior a la que recibe por parámetro.
+   - mayorQue(Fecha fecha): indica si la fecha es posterior a la que recibe por parámetro.
 
 6.	Crea una clase llamada "Libro" que tenga como atributos el título, el autor (usá la clase Persona), el ISBN, cantidad de páginas, editorial y fecha de publicación(usá la clase Fecha). La clase debe tener métodos para mostrar la información del libro y para comprobar si el libro es anterior a otro libro dado. Incluir 3 constructores distintos a elección, los getters y setters.
 
