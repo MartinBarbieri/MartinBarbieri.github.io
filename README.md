@@ -76,4 +76,34 @@ Si por ejemplo le hemos dado a N el valor 5, a A el valor 4.56 y a C el valor �
 
 8. Hacer una clase Cancion con los siguientes atributos: titulo y autor. Hacer un constructor parametrizado, un constructor por defecto que inicialice el titulo y el autor a cadenas vacias y los getters y setters de todos los atributos.
     
+## Unidad 2 - Clase ArrayLists y for each
+
+1.	Crear un ArrayList de números enteros y mostrar su suma.
+
+2.	Crear un ArrayList de cadenas y mostrar solo los elementos que empiezan con una letra específica.
+
+3.	Crear un ArrayList de objetos "Persona" y mostrar solo las personas que tienen más de 30 años.
+
+4.	Crear una clase CD que esté compuesta de muchas canciones e implemente los siguientes métodos:
+        - Constructor por defecto.
+        - Getters y setters.
+        - numeroCanciones(): devuelve la cantidad de canciones en el CD.
+        - verCancion(int posicion): Devuelve la canción que se encuentra en la posición que recibe por parámetro 
+        - grabaCancion(int posición, Cancion nuevaCancion): Cambia la canción que está en esa poscion por la nueva canción que recibe por parámetro.
+        - agrega(Cancion cancion): agrega al final del Array la canción que recibe po parámetro.
+        - elimina(int posición): elimina la Cancion que se encuentra en la posición indicada.
+        
+5.	Crear una clase que represente a un alumno de una escuela. Los atributos que debe tener el alumno son:
+        a)	Nombre
+        b)	Apellido
+        c)	Fecha de nacimiento
+        d)	Lista de notas
+
+	Se deben crear los métodos:
+        a)	Set Nombre
+        b)	Set Apellido
+        c)	Set Fecha Nacimiento
+        d)	Agregar Nota
+        e)	Menor Nota
+        f)	Mayor Nota
 
