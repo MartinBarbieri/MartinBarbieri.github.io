@@ -94,16 +94,14 @@ Si por ejemplo le hemos dado a N el valor 5, a A el valor 4.56 y a C el valor �
 	- 	elimina(int posición): elimina la Cancion que se encuentra en la posición indicada.
         
 5.	Crear una clase que represente a un alumno de una escuela. Los atributos que debe tener el alumno son:
-	-		Nombre.
-        -		Apellido.
-        -		Fecha de nacimiento.
-        -		Lista de notas.
+        -	Apellido.
+        -	Fecha de nacimiento.
+        -	Lista de notas.
 
 	Se deben crear los métodos:
-	-		Set Nombre
-	-		Set Apellido
-        -		Set Fecha Nacimiento
-        -		Agregar Nota
-        -		Menor Nota
-        -		Mayor Nota
+	-	Get de todos los atributos.
+        -	Set de todos los atributos.
+        -	Agregar Nota
+        -	Menor Nota
+        -	Mayor Nota
 
