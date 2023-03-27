@@ -85,13 +85,13 @@ Si por ejemplo le hemos dado a N el valor 5, a A el valor 4.56 y a C el valor �
 3.	Crear un ArrayList de objetos "Persona" y mostrar solo las personas que tienen más de 30 años.
 
 4.	Crear una clase CD que esté compuesta de muchas canciones e implemente los siguientes métodos:
-        - Constructor por defecto.
-        - Getters y setters.
-        - numeroCanciones(): devuelve la cantidad de canciones en el CD.
-        - verCancion(int posicion): Devuelve la canción que se encuentra en la posición que recibe por parámetro 
-        - grabaCancion(int posición, Cancion nuevaCancion): Cambia la canción que está en esa poscion por la nueva canción que recibe por parámetro.
-        - agrega(Cancion cancion): agrega al final del Array la canción que recibe po parámetro.
-        - elimina(int posición): elimina la Cancion que se encuentra en la posición indicada.
+		- Constructor por defecto.
+		- Getters y setters.
+		- numeroCanciones(): devuelve la cantidad de canciones en el CD.
+		- verCancion(int posicion): Devuelve la canción que se encuentra en la posición que recibe por parámetro 
+		- grabaCancion(int posición, Cancion nuevaCancion): Cambia la canción que está en esa poscion por la nueva canción que recibe por parámetro.
+		- agrega(Cancion cancion): agrega al final del Array la canción que recibe po parámetro.
+		- elimina(int posición): elimina la Cancion que se encuentra en la posición indicada.
         
 5.	Crear una clase que represente a un alumno de una escuela. Los atributos que debe tener el alumno son:
         a)	Nombre
