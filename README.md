@@ -106,3 +106,17 @@ Si por ejemplo le hemos dado a N el valor 5, a A el valor 4.56 y a C el valor �
         -	Menor Nota
         -	Mayor Nota
 	
+
+6.	Tomar el ejercicio anterior (pudiéndole hacer las modificaciones que crean necesarias) e incorporar un atributo a la clase alumno llamado materias (lista de Materia). Tener en cuenta que Materia es una nueva clase que deberá tener los siguientes atributos:
+	-	Nombre
+	-	Lista de notas.
+
+	Analizar cómo y dónde crear los métodos:
+
+	-	Agregar Materia
+	-	Promedio notas  de materia
+	-	Promedio notas del alumno
+
+7. Realizar un sistema que controle campeonatos de curling. Los equipos se deben anotar en el campeonato indicando sus jugadores y disponibilidad horaria del equipo dividida en turnos: mañana, tarde y noche de lunes a sábados. Los mismos tendrán un nombre, un barrio de procedencia, 10 jugadores y uno de ellos debe ser el capitán del equipo.
+De los jugadores se debe saber el nombre, fecha de nacimiento y el número de camiseta. Los números de camiseta no se pueden repetir dentro de un mismo equipo.
+El torneo es todos contra todos y el sistema debe definir los horarios de los partidos dependiendo de la disponibilidad horaria de los equipos. Se debe armar un fixture completo una vez que todos los equipos estén anotados. El fixture del torneo consta de partidos los cuales tienen un día, horario y equipos que jugarán.
