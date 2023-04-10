@@ -120,3 +120,50 @@ Si por ejemplo le hemos dado a N el valor 5, a A el valor 4.56 y a C el valor �
 7. Realizar un sistema que controle campeonatos de curling. Los equipos se deben anotar en el campeonato indicando sus jugadores y disponibilidad horaria del equipo dividida en turnos: mañana, tarde y noche de lunes a sábados. Los mismos tendrán un nombre, un barrio de procedencia, 10 jugadores y uno de ellos debe ser el capitán del equipo.
 De los jugadores se debe saber el nombre, fecha de nacimiento y el número de camiseta. Los números de camiseta no se pueden repetir dentro de un mismo equipo.
 El torneo es todos contra todos y el sistema debe definir los horarios de los partidos dependiendo de la disponibilidad horaria de los equipos. Se debe armar un fixture completo una vez que todos los equipos estén anotados. El fixture del torneo consta de partidos los cuales tienen un día, horario y equipos que jugarán.
+
+## Unidad 3 - Herencia
+
+1.	Realizar un sistema que maneje la flota de vehículos de una empresa. De todos los vehículos (autos, camionetas y bicicletas) se debe conocer su marca, 		modelo, color, cantidad de ruedas y año de fabricación.
+
+	Para los autos y las camionetas hay que guardar la patente. En el caso del último mencionado, se debe conocer la capacidad de carga de la misma en kg y, para los autos, además hay que diferenciar si son descapotables o no.
+
+	Cada empresa posee una lista de camionetas y una lista de autos. La empresa querrá saber de qué vehículos tiene más cantidad, debe poder añadirle carga a una camioneta (siempre y cuando no supere su capacidad) y le importa conocer el porcentaje de autos descapotables de su empresa.
+
+	Aclaración: Si tienen que hacer modificaciones en clases que ya han creado, háganlas.
+
+2.	Realizar un sistema para las bufes de pedidos de almuerzos. Los pedidos se pueden realizar por alumnos o profesores. 
+
+	Para los alumnos los datos a incluir son: Nombre, Apellido y División. Para los profesores Nombre, Apellido y Porcentaje de Descuento.
+	Existen diferentes platos que se pueden solicitar, para ellos los datos a incluir son: Nombre y Precio. Al cargarse un pedido se incluye la fecha de creación, el plato, la persona que lo pidió, hora de entrega y si ya se entregó o no.
+	Debe existir un menú donde se puedan agregar, modificar y eliminar alumnos, profesores, platos y pedidos y se debe poder extraer un listado de los platos a cocinar en el día con su precio considerando el descuento aplicado.
+
+3.	 Crear las clases con sus atributos y métodos necesarios para un sitio web de compra de computadoras personalizadas que quiere automatizar ciertos procesos de la empresa.
+
+	Uno entra a la página y puede ir eligiendo distintos componentes para armarse su propia computadora (una CPU y varios periféricos). 
+
+	La mínima compra tiene que darse con una CPU, un dispositivo de entrada y otro de salida. Para crear la compra habrá que asegurarse que tenga esos componentes mínimos y se puede modificar la configuración en cualquier momento añadiendo, quitando o cambiando exclusivamente periféricos.  
+	Al efectuarse una compra se quiere guardar el nombre, apellido y un celular del cliente así como también el método de pago. Si es en efectivo no hace falta pedir nada más y si es con tarjeta habrá que hacerle un recargo al precio final del 5% y guardar también el número de tarjeta, de qué banco es y si es crédito o débito.
+
+	Todos los componentes que se le pueden agregar al ordenador tienen  información sobre el nombre del fabricante, el modelo, el precio de venta que va variando acorde a la inflación del país y el stock.
+
+	Los dispositivos de entrada que hay actualmente son el teclado y el mouse de los cuales necesitamos saber el tipo de conector que utiliza y los puertos válidos. Por otro lado, los dispositivos de salida que hay actualmente son las pantallas y las impresoras de los cuales nos interesa saber únicamente los puertos válidos y, en el caso de las impresoras, qué método de impresión usa  (Inyección o láser). 
+
+	Es importante aclarar que el sistema debe estar preparado para que se puedan ir agregando más periféricos
+
+	El programa deberá:
+
+	a.	Realizar una compra, es decir, agregar una computadora a la lista de computadoras vendidas y hacer las modificaciones necesarias en cuanto a stock.
+
+	b.	Calcular el precio total de la computadora con todos los periféricos. 
+
+	c.	Mostrar la cantidad de componentes de entrada y de salida que tiene una computadora en específico.
+
+4.	Un edificio tiene un sistema de alarmas que incluye detectores de humo, sensores de temperatura y sensores de presión. Todos estos elementos tienen un estado: conectado/desconectado y son capaces de proporcionar una medida (un valor real) en el momento que son consultados y tienen un valor umbral que se fija inicialmente al crear el elemento. Además, de cualquier dispositivo importa saber el año en que se adquirió ya que de esa forma se sabrá cuando corresponde cambiarlo.
+
+	El sistema recorre en un bucle continuo todos sus elementos conectados. Cuando la medida de uno de ellos supera su valor umbral el sistema dispara la alarma. En el caso del detector de humo la alarma consiste en hacer un print que indique que llama a los bomberos, el sensor de temperatura deberá imprimir: “¡Cuidado! La temperatura sube”  y el sensor de presión: “Sensor de presión activado”.
+
+	Para evitar falsas alarmas, varios elementos se pueden unir formando grupos de sensores y para este sensor complejo que se forma la alama sólo se dispara si el valor medio de los elementos del grupo supera el umbral definido para ese elemento compuesto. 
+
+	Implementar todo lo relacionado con el disparo de la alarma, de los sensores por separado así como también para el sensor complejo.
+
+
