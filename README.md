@@ -158,6 +158,7 @@ El torneo es todos contra todos y el sistema debe definir los horarios de los pa
 
 	c.	Mostrar la cantidad de componentes de entrada y de salida que tiene una computadora en específico.
 
+
 4.	Un edificio tiene un sistema de alarmas que incluye detectores de humo, sensores de temperatura y sensores de presión. Todos estos elementos tienen un estado: conectado/desconectado y son capaces de proporcionar una medida (un valor real) en el momento que son consultados y tienen un valor umbral que se fija inicialmente al crear el elemento. Además, de cualquier dispositivo importa saber el año en que se adquirió ya que de esa forma se sabrá cuando corresponde cambiarlo.
 
 	El sistema recorre en un bucle continuo todos sus elementos conectados. Cuando la medida de uno de ellos supera su valor umbral el sistema dispara la alarma. En el caso del detector de humo la alarma consiste en hacer un print que indique que llama a los bomberos, el sensor de temperatura deberá imprimir: “¡Cuidado! La temperatura sube”  y el sensor de presión: “Sensor de presión activado”.
