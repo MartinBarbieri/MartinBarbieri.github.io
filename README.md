@@ -135,7 +135,7 @@ El torneo es todos contra todos y el sistema debe definir los horarios de los pa
 
 	Para los alumnos los datos a incluir son: Nombre, Apellido y División. Para los profesores Nombre, Apellido y Porcentaje de Descuento.
 	Existen diferentes platos que se pueden solicitar, para ellos los datos a incluir son: Nombre y Precio. Al cargarse un pedido se incluye la fecha de creación, el plato, la persona que lo pidió, hora de entrega y si ya se entregó o no.
-	Debe existir un menú donde se puedan agregar, modificar y eliminar alumnos, profesores, platos y pedidos y se debe poder extraer un listado de los platos a cocinar en el día con su precio considerando el descuento aplicado.
+	Debe existir un menú donde se puedan agregar, modificar y eliminar platos y pedidos y se debe poder extraer un listado de los platos a cocinar en el día con su precio considerando el descuento aplicado.
 
 3.	Crear las clases con sus atributos y métodos necesarios para un sitio web de compra de computadoras personalizadas que quiere automatizar ciertos procesos de la empresa.
 
