@@ -137,15 +137,11 @@ El torneo es todos contra todos y el sistema debe definir los horarios de los pa
 	Existen diferentes platos que se pueden solicitar, para ellos los datos a incluir son: Nombre y Precio. Al cargarse un pedido se incluye la fecha de creación, el plato, la persona que lo pidió, hora de entrega y si ya se entregó o no.
 	Debe existir un menú donde se puedan agregar, modificar y eliminar alumnos, profesores, platos y pedidos y se debe poder extraer un listado de los platos a cocinar en el día con su precio considerando el descuento aplicado.
 
-3.	 Crear las clases con sus atributos y métodos necesarios para un sitio web de compra de computadoras personalizadas que quiere automatizar ciertos procesos de la empresa.
-
+3.	Crear las clases con sus atributos y métodos necesarios para un sitio web de compra de computadoras personalizadas que quiere automatizar ciertos procesos de la empresa.
 	Uno entra a la página y puede ir eligiendo distintos componentes para armarse su propia computadora (una CPU y varios periféricos). 
-
 	La mínima compra tiene que darse con una CPU, un dispositivo de entrada y otro de salida. Para crear la compra habrá que asegurarse que tenga esos componentes mínimos y se puede modificar la configuración en cualquier momento añadiendo, quitando o cambiando exclusivamente periféricos.  
 	Al efectuarse una compra se quiere guardar el nombre, apellido y un celular del cliente así como también el método de pago. Si es en efectivo no hace falta pedir nada más y si es con tarjeta habrá que hacerle un recargo al precio final del 5% y guardar también el número de tarjeta, de qué banco es y si es crédito o débito.
-
 	Todos los componentes que se le pueden agregar al ordenador tienen  información sobre el nombre del fabricante, el modelo, el precio de venta que va variando acorde a la inflación del país y el stock.
-
 	Los dispositivos de entrada que hay actualmente son el teclado y el mouse de los cuales necesitamos saber el tipo de conector que utiliza y los puertos válidos. Por otro lado, los dispositivos de salida que hay actualmente son las pantallas y las impresoras de los cuales nos interesa saber únicamente los puertos válidos y, en el caso de las impresoras, qué método de impresión usa  (Inyección o láser). 
 
 	Es importante aclarar que el sistema debe estar preparado para que se puedan ir agregando más periféricos
@@ -157,7 +153,6 @@ El torneo es todos contra todos y el sistema debe definir los horarios de los pa
 	b.	Calcular el precio total de la computadora con todos los periféricos. 
 
 	c.	Mostrar la cantidad de componentes de entrada y de salida que tiene una computadora en específico.
-
 
 4.	Un edificio tiene un sistema de alarmas que incluye detectores de humo, sensores de temperatura y sensores de presión. Todos estos elementos tienen un estado: conectado/desconectado y son capaces de proporcionar una medida (un valor real) en el momento que son consultados y tienen un valor umbral que se fija inicialmente al crear el elemento. Además, de cualquier dispositivo importa saber el año en que se adquirió ya que de esa forma se sabrá cuando corresponde cambiarlo.
 
