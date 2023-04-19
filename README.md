@@ -166,5 +166,12 @@ El torneo es todos contra todos y el sistema debe definir los horarios de los pa
 	Para evitar falsas alarmas, varios elementos se pueden unir formando grupos de sensores y para este sensor complejo que se forma la alama sólo se dispara si el valor medio de los elementos del grupo supera el umbral definido para ese elemento compuesto. 
 
 	Implementar todo lo relacionado con el disparo de la alarma, de los sensores por separado así como también para el sensor complejo.
+	
+5.	Realizar un sistema que controle las llamadas telefónicas de una empresa.
+        
+	Cada empleado de la empresa tiene un nombre, apellido, DNI, país y número de teléfono. Los empleados pueden realizar llamadas entre ellos. Para realizarlas deben introducir el número de teléfono al cual quieren llamar. Una vez finalizada la llamada el usuario debe introducir la duración de la misma.
+        
+	El sistema debe conservar un registro de todas las llamadas realizadas indicando: empleado origen, empleado destino, fecha de la llamada, duración de la llamada. Luego, el sistema debe ser capaz de entregar un listado de llamadas realizadas por cada empleado y el ranking de empleados que más tiempo llamaron al exterior.
+
 
 
