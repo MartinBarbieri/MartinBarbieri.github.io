@@ -202,11 +202,12 @@ El torneo es todos contra todos y el sistema debe definir los horarios de los pa
 3.	Realizar un sistema que controle las calorías consumidas por una persona. Existirán platos los cuales tendrán nombre y cantidad de calorías que poseen.  De las personas se desea conocer el nombre y fecha de nacimiento. Las personas se almacenarán en una entidad denominada familia, es decir, una familia va a tener muchas personas. 
 
 	Cada vez que la persona come un plato se debe guardar ese dato para luego saber: 
-		- Cantidad de calorías consumidas en total por la persona. 
-    		- Promedio de calorías por familia. 
-    		- Persona que consumió más calorías en la familia. 
-    		- Persona que consumió menos calorías en la familia. 
-    		- 
+	
+		-  Cantidad de calorías consumidas en total por la persona. 
+    		-  Promedio de calorías por familia. 
+    		-  Persona que consumió más calorías en la familia. 
+    		-  Persona que consumió menos calorías en la familia. 
+    		
 4.	Realizar un sistema que controle las llamadas telefónicas de una empresa. 
 
 	Cada empleado de la empresa tiene un nombre, apellido, DNI, país y número de teléfono. Los empleados pueden realizar llamadas entre ellos. Para realizarlas deben introducir el número de teléfono al cual quieren llamar. Una vez finalizada la llamada el usuario debe introducir la duración de la misma. 
