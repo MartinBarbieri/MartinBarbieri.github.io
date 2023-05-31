@@ -182,13 +182,13 @@ El torneo es todos contra todos y el sistema debe definir los horarios de los pa
 
 ## Unidad 5 - HashMaps y HashSets
 
-1. 	Realizar un sistema que controle la asistencia de un empleado a su trabajo. El empleado debe tener un nombre, apellido, teléfono, fecha de 	nacimiento y qué días de lunes a viernes debe asistir. 
+1. 	Realizar un sistema que controle la asistencia de un empleado a su trabajo. El empleado debe tener un nombre, apellido, teléfono, fecha de nacimiento y qué días de lunes a viernes debe asistir. 
 	
 	Cada empleado tiene una lista de asistencias, esto quiere decir que cuando el empleado ingresa a la empresa, se registra y dicho registro ingresa a una lista conteniendo la fecha y hora de ingreso. (implementar tipo de dato DateTime) 
  	
 	El empleado debe tener una forma de comprobar el porcentaje de asistencia en un mes en particular. 
 	
-	Los empleados deben pertenecer a una empresa y se debe tener la posibilidad de extraer el porcentaje de asistencia del total en un mes de empleados de la empresa. 
+	Los empleados deben pertenecer a una empresa y se debe tener la posibilidad de extraer la cantidad de empleados que superan el 80% de asistencia en un mes dado. 
 
 
 2.	Realizar un sistema que controle la altura y peso de una persona a través del tiempo. La persona debe tener un nombre, apellido y fecha de nacimiento. 
