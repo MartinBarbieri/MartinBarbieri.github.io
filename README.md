@@ -249,7 +249,7 @@ Realizar:
 
 1) Hacer las modificaciones necesarias en cada una de las clases ya resueltas durante el año para que sean abstractas si es necesario o impementen métodos o atributos estáticos.
 
-<!--- 2) a) Realizar un ABM de mascotas. Los mismos pueden ser: 
+2) a) Realizar un ABM de mascotas. Los mismos pueden ser: 
 
     Perros 
     Gatos 
@@ -289,4 +289,4 @@ En los casos donde la alegría es mayor a 1 al saludar se resta un punto de aleg
     Saluda nuevamente, esta vez con “miau miau” y se le resta 1 a su alegría quedando en 1. 
     Saluda nuevamente, esta vez con “miau” pero como su alegría ya estaba en 1 no se modifica. 
     
-Cada tipo de mascota debe tener un método el cual devuelve qué tipo de mascota es (Perro, Gato, Pajarito o Pez) --->
+Cada tipo de mascota debe tener un método el cual devuelve qué tipo de mascota es (Perro, Gato, Pajarito o Pez) 
