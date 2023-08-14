@@ -244,6 +244,49 @@ Realizar:
     	- Continente con más población 
 
     	- Continente con menos población 
+     
+## Unidad 6 - Modificadores
 
+1) Hacer las modificaciones necesarias en cada una de las clases ya resueltas durante el año para que sean abstractas si es necesario o impementen métodos o atributos estáticos.
+
+<!--- 2) a) Realizar un ABM de mascotas. Los mismos pueden ser: 
+
+    Perros 
+    Gatos 
+    Pajaritos
+   
+Todas las mascotas tienen un nombre y un dueño (el nombre de la mascota debe ser único). Cada una tiene un saludo en particular: 
+
+    Para los perros el saludo es “guau” 
+    Para los gatos el saludo es “miau” 
+    Para los pajaritos el saludo es “pio” 
+
+Los pajaritos tienen una característica adicional, pueden ser o no cantores. Si son cantores hay que especificar cuál es su canto (diferente de “pio”). 
+
+Se debe poder realizar un alta de mascotas donde se indique el nombre, dueño y tipo. También se deben poder eliminar mascotas y modificar mascotas. 
+
+Dentro del menú de la aplicación debe existir la opción “Saludar”, la misma solicita el nombre al usuario y el nombre de la mascota. El programa debe responder: 
+
+    Si el usuario es el dueño de la mascota: se saluda con el saludo de la mascota (por ejemplo: guau) 
+    Si el usuario no es el dueño de la mascota: se saluda con el saludo de la mascota en mayúsculas y con un signo de exclamación (por ejemplo: GUAU!) 
+
+En el caso de los pajaritos la situación cambia, si el usuario no es el dueño no debe responder nada. 
+
+Realizar el diagrama de clases y el código necesario en Java sin utilizar bases de datos (utilizar una lista para almacenar a las mascotas) 
+
+
+b) Se agregan peces como mascotas. Los peces no tienen saludo, pero cada vez que los saluda el dueño pierden una vida, de lo contrario, si los saluda un NO dueño mueren. Para sumar vidas deben alimentarse mediante el método alimentar, cada vez que se llama a dicho método se suma una vida. 
+Si el pez se queda sin vida se debe eliminar automáticamente del listado de mascotas. 
+Vidas iniciales: 10 
+
+
+c) Para los perros, gatos y pajaritos también existe un método alimentar. Ese método suma alegría a la mascota. Por cada punto de alegría que tenga la mascota el saludo se prolonga. Por ejemplo, para un gato que tiene 3 puntos de alegría el saludo es “miau miau miau”. 
+
+En los casos donde la alegría es mayor a 1 al saludar se resta un punto de alegría. Por ejemplo: 
  
-
+    Un gato tiene 3 puntos de alegria. 
+    Saluda una vez con “miau miau miau” y se le resta 1 a su alegría quedando en 2. 
+    Saluda nuevamente, esta vez con “miau miau” y se le resta 1 a su alegría quedando en 1. 
+    Saluda nuevamente, esta vez con “miau” pero como su alegría ya estaba en 1 no se modifica. 
+    
+Cada tipo de mascota debe tener un método el cual devuelve qué tipo de mascota es (Perro, Gato, Pajarito o Pez) --->
