@@ -290,3 +290,27 @@ En los casos donde la alegría es mayor a 1 al saludar se resta un punto de aleg
     Saluda nuevamente, esta vez con “miau” pero como su alegría ya estaba en 1 no se modifica. 
     
 Cada tipo de mascota debe tener un método el cual devuelve qué tipo de mascota es (Perro, Gato, Pajarito o Pez) 
+
+## Unidad 7 - Manejo de excepciones
+
+1.	Ejecutar el siguiente fragmento de código: 
+
+		public class Main{
+			public static void Main(String[] args){
+				String nombre = null;
+  				System.out.println("El largo del nombre es:"+ nombre.length)
+			}
+		}
+
+	Resolver la excepción de cuatro formas diferentes. Siempre al final del programa habrá que mostrar el nombre de ustedes a modo de firma: 
+
+	    Bloque try/catch. 
+	    Throw. 
+	    Throws. 
+	    Clase personalizada. 
+
+3.	Dado el ejercicio de sistema de alarmas que tiene un edificio (ejercicio 4, unidad 3), habrá que permitirle al usuario que pueda elegir de cuál 	de todos los dispositivos quiere obtener más información. Para esto habrá que pedirle al usuario que ingrese un número desde el 0 hasta la cantidad 	de alarmas que estén registradas. Acorde al número que elija es el dispositivo que se mostrará. 
+
+	Deberán tener en cuenta en la implementación si el usuario no ingresa un número entero o ingresa un número mayor a la cantidad de dispositivos que 	hay instalados en el edificio. No se deberá cortar la ejecución del programa por alguno de estos errores. 
+
+3. 	Agregarle al sistema de compras de componentes de computadora (ejercicio 3, unidad 3) las excepciones necesarias para que el usuario sepa si no hay stock de los componentes que eligió y lanzar una excepción en caso de que al hacer la compra falte uno de los componentes principales {una CPU, un dispositivo de entrada y uno de salida}. 
