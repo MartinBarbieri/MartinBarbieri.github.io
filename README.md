@@ -313,4 +313,20 @@ Cada tipo de mascota debe tener un método el cual devuelve qué tipo de mascota
 
 	Deberán tener en cuenta en la implementación si el usuario no ingresa un número entero o ingresa un número mayor a la cantidad de dispositivos que 	hay instalados en el edificio. No se deberá cortar la ejecución del programa por alguno de estos errores. 
 
-3. 	Agregarle al sistema de compras de componentes de computadora (ejercicio 3, unidad 3) las excepciones necesarias para que el usuario sepa si no hay stock de los componentes que eligió y lanzar una excepción en caso de que al hacer la compra falte uno de los componentes principales {una CPU, un dispositivo de entrada y uno de salida}. 
+3. 	Agregarle al sistema de compras de componentes de computadora (ejercicio 3, unidad 3) las excepciones necesarias para que el usuario sepa si no hay stock de los componentes que eligió y lanzar una excepción en caso de que al hacer la compra falte uno de los componentes principales (una CPU, un dispositivo de entrada y uno de salida).
+
+4. 	 En la clase 'Main' crea instancias de autores, libros electrónicos, usuarios y bibliotecarios, realiza operaciones de préstamo y devolución, y maneja las excepciones adecuadamente.
+
+	 Vamos a hacer un programa que me permita gestionar una biblioteca virtual con libros electrónicos, autores, usuarios y préstamos.
+
+	 Los géneros de los libros pueden ser: ficción, no ficción, aventura, ciencia ficción, saga, trilogía y tres más a elección suya. Los libros van a ser escritos por un autor del cual interesa conocer el nombre, la fecha de nacimiento, el dni y su bibliografía (todos los libros que escribió).
+
+	 De cada libro electrónico se guardará el título, el autor, el género, el nombre del archivo pdf y la cantidad de descargas disponibles que tiene (es igual para todos los libros).
+
+	 Los usuarios de la plataforma se registran ingresando nombre, fecha de nacimiento, dni,mail, los libros prestados y el tipo de membresía que tiene. Si es bronce podrá tener hasta 5 libros prestados, Plata como mucho 15 libros y si es oro 50 préstamos activos.
+
+	 El sistema  debe gestionar los préstamos y devoluciones de libros electrónicos. Si un usuario intenta tomar prestado un libro que ya ha alcanzado el límite, se debe lanzar una excepción personalizada (`LimiteDePrestamosAlcanzadoException`). Así como hay que lanzar la excepción (‘MembresiaException’) si el usuario ya alcanzó su cupo de libros que puede tomar prestados simultáneamente.
+
+	 Además, hacer los métodos necesarios para poder agregar, borrar o modificar nuevos libros
+
+6. 	
