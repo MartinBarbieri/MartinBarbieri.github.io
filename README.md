@@ -327,6 +327,38 @@ Cada tipo de mascota debe tener un método el cual devuelve qué tipo de mascota
 
 	 El sistema  debe gestionar los préstamos y devoluciones de libros electrónicos. Si un usuario intenta tomar prestado un libro que ya ha alcanzado el límite, se debe lanzar una excepción personalizada (`LimiteDePrestamosAlcanzadoException`). Así como hay que lanzar la excepción (‘MembresiaException’) si el usuario ya alcanzó su cupo de libros que puede tomar prestados simultáneamente.
 
-	 Además, hacer los métodos necesarios para poder agregar, borrar o modificar nuevos libros
+	 Además, hacer los métodos necesarios para poder agregar, borrar o modificar nuevos libros.
 
-6. 	
+5.	Realizar un sistema que controle el consumo de bebidas de personas. Cada persona debe tener un nombre, apellido y DNI (el DNI debe ser único).
+   
+ 	Las bebidas tienen un nombre y un coeficiente de positividad y uno de negatividad. Existen 3 clases de bebidas:
+
+		Bebidas neutras: en estas bebidas los coeficientes se establecen manualmente.
+
+		Bebidas azucaradas: en estas bebidas se establece un atributo llamado “cantidad de azúcar”, el coeficiente de positividad es siempre 1 y el de negatividad se calcula multiplicando 		la cantidad de azúcar por 10.
+
+		Bebidas alcohólicas: en estas bebidas se establece un atributo llamado “cantidad de alcohol”, el coeficiente de positividad es siempre cero y el de negatividad se calcula 			multiplicando la cantidad de alcohol por 20.
+ 
+ 	Cada persona tienen una lista de bebidas que consumió, indicando bebida y cantidad. Se debe poder calcular el coeficiente de hidratación resultante de cada persona. Por ejemplo: 
+ 
+		Agua (coef. de negatividad = 0, coef. de positividad = 20) 
+		Coca (cantidad de azúcar = 5) 
+		 
+		Si Juan tomó 3 aguas y 2 cocas: 
+		 
+		Coeficiente resultante para 3 aguas = 3 x (20 - 0) = 60 
+		Coeficiente resultante para 2 cocas = 2 x [1 - (5 x 10)] = -98 
+		 
+		Coeficiente resultante total = 60 + (-98) = -38
+ 
+ 	Adicionalmente se debe poder calcular la persona con mejor y con peor coeficiente de hidratación y un método para que el usuario elija que bebida consumir y la cantidad.
+
+	Utilizar el manejo de excepciones para corroborar que:
+
+			Al añadir personas al sistema todos los dni sean distintos.
+			Encuentre la bebida que quiere consumir y tenga esa cantidad que solicita.
+			Existen personas registradas para determinar el de mejor y peor coeficiente de hidratación.
+
+
+
+ 
