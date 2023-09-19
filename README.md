@@ -359,6 +359,41 @@ Cada tipo de mascota debe tener un método el cual devuelve qué tipo de mascota
 			Encuentre la bebida que quiere consumir y tenga esa cantidad que solicita.
 			Existen personas registradas para determinar el de mejor y peor coeficiente de hidratación.
 
+## Unidad 8 - Interfaces polimórficas
 
+1. Hay un grupo de amigos que hicieron un sistema para empezar a intercambiarse libros, revistas, remeras y camperas entre ellos. A medida que iban sumando posibles objetos se les hacía más complicado llevar registro de qué había sido prestado por lo que pensaron en realizar un sistema que administre las cosas prestadas. 
 
- 
+	Las características comunes que se almacenan tanto para las revistas como para los libros son el código, el título, y el año de publicación. Los libros tienen además que guardar la cantidad de páginas por cada capítulo (es decir, no están prestados) y las revistas la fecha en la que fue publicada. 
+
+	Las prendas de ropa están calificadas por color, material (algodón, poliéster, seda, etc.), marca y estado (si tiene alguna mancha o rotura). Si es un pantalón tendrá también las medidas de la cintura, cadera y largo y, en el caso de las remeras, se necesitan las medidas de espalda, contorno y largo del torso. 
+
+	Todos los objetos deben tener  un método toString {} que devuelve el valor de todos los atributos en una cadena de caracteres. 
+
+	Para prevenir posibles cambios en el programa se tiene que implementar una interfaz Prestable con los métodos prestar() y agregarElemento().  
+
+	El método prestar deberá mostrar un mensaje de la forma: “El/La *nombreObjeto* se dará prestado” si cumple con determinados criterios según qué se de en préstamo. Los libros si la cantidad de capítulos es impar, las revistas tienen que tener una fecha de publicación anterior al trimestre actual y las prendas de ropa no tienen que tener ninguna mancha ni rotura. Si no se cumplen las condiciones establecidas para cada objeto se deberá mostrar un mensaje que diga: “El/La *nombreObjeto* no se prestará”. 
+
+	El método agregarElemento corrobora si el objeto que recibe cumple con las condiciones descriptas anteriormente para ser restado. De ser así, imprimirá por pantalla un mensaje que dice: “El artículo ingresado puede ingresar al circuito de préstamos” y sino “El articulo ingresado no podrá ingresar a nuestro sistema”. 
+
+2. Un prestigioso y muy exigente centro educativo requiere una aplicación para decidir quiénes se graduarán. Se dispone de alumnos que guardan su DNI, apellido, nombre y los exámenes realizados. 
+
+	De todos los exámenes se sabe su fecha de realización. Los exámenes escritos también tienen una duración (en minutos) y una nota numérica entre 0 y 10. Los exámenes orales cuentan con un nivel de satisfacción (insuficiente, suficiente o excelente).  
+
+	Para considerar aprobado a un alumno, éste debe aprobar todos sus exámenes. Los exámenes escritos se aprueban con una calificación de 6 o más, siempre en un tiempo inferior a 90 minutos. Por otro lado, los exámenes orales deben ser todos, como mínimo, suficientes. 
+
+	Basado en el enunciado descripto, realizar: 
+
+		A. El diagrama de clases que lo modelice, con sus relaciones, atributos y métodos. 
+   		B. La implementación del método cantAprobados que retorne cuántos alumnos han aprobado. 
+
+3. En época de elecciones, tenemos un sistema que administra la organización de los partidos políticos del país. Estos se manejan haciendo campaña de 3 formas como son las palomas mensajeras, los teléfonos móviles y los trabajadores.  
+
+	Sabemos que las palomas mensajeras son un tipo específico de ave donde, además de guardar el color, nombre y especie que es común a todas las aves,  se guardará también una variable que indique si ya aprendió el mapa para volar sola o no.  
+
+	Por otro lado, los teléfonos móviles pertenecen al grupo de dispositivos por lo que, si bien es común para todo dispositivo el número de serie, fabricante y  modelo, el teléfono móvil deberá guardar en particular a qué compañía telefónica pertenece {Claro, Personal, Movistar o Tuenti} y el número celular.  
+
+ 	En el caso de los trabajadores habrá que conocer no sólo el nombre, apellido, dni, fecha de nacimiento sino también el número de cuil, el sueldo y la dirección de residencia. 
+
+	Las personas, los teléfonos móviles y las palomas mensajeras para cumplir con lo que les pide su partido político envían mensajes en apoyo de los dirigentes del partido al cual militan. Cada partido tiene un nombre, un dirección donde se encuentra la oficina central,  una cantidad de afiliados y una lista de los enviadores de mensajes. 
+
+	Se deberá hacer un método para que se pueda agregar un mensajero a dicha lista y otro titulado: hacer campaña. Este consiste en recorrer todos los mensajeros afiliados y  por cada uno enviar un mensaje que diga: “Vote por el partido para un mejor futuro”.  	Este mensaje, si es dado por una paloma mensajera deberá ser precedido por el siguiente lema: “Lanzando un papelito que dice:”. Eso sí, hay que tener en cuenta que el mensaje sólo lo puede enviar si ya aprendió a volar. Si el mensaje se transmitE por un teléfono móvil al mensaje oficial del partido le antecederá: “Conectando con la antena más cercana” siempre y cuando el teléfono esté prendido y tenga crédito disponible. Por último, si un trabajador transmite el mensaje, primero habrá que verificar si está en su horario laboral y luego deberá decir antes del mensaje común: “Yo, *nombreTrabajador* te invito a que…” 
