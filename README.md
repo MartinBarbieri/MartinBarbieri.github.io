@@ -363,7 +363,7 @@ Cada tipo de mascota debe tener un método el cual devuelve qué tipo de mascota
 
 1. Hay un grupo de amigos que hicieron un sistema para empezar a intercambiarse libros, revistas, remeras y camperas entre ellos. A medida que iban sumando posibles objetos se les hacía más complicado llevar registro de qué había sido prestado por lo que pensaron en realizar un sistema que administre las cosas prestadas. 
 
-	Las características comunes que se almacenan tanto para las revistas como para los libros son el código, el título, y el año de publicación. Los libros tienen además que guardar la cantidad de páginas por cada capítulo (es decir, no están prestados) y las revistas la fecha en la que fue publicada. 
+	Las características comunes que se almacenan tanto para las revistas como para los libros son el código, el título, y el año de publicación. Los libros tienen además que guardar la cantidad de páginas por cada capítulo y, las revistas, la fecha en la que fue publicada. 
 
 	Las prendas de ropa están calificadas por color, material (algodón, poliéster, seda, etc.), marca y estado (si tiene alguna mancha o rotura). Si es un pantalón tendrá también las medidas de la cintura, cadera y largo y, en el caso de las remeras, se necesitan las medidas de espalda, contorno y largo del torso. 
 
@@ -373,7 +373,7 @@ Cada tipo de mascota debe tener un método el cual devuelve qué tipo de mascota
 
 	El método prestar deberá mostrar un mensaje de la forma: “El/La *nombreObjeto* se dará prestado” si cumple con determinados criterios según qué se de en préstamo. Los libros si la cantidad de capítulos es impar, las revistas tienen que tener una fecha de publicación anterior al trimestre actual y las prendas de ropa no tienen que tener ninguna mancha ni rotura. Si no se cumplen las condiciones establecidas para cada objeto se deberá mostrar un mensaje que diga: “El/La *nombreObjeto* no se prestará”. 
 
-	El método agregarElemento corrobora si el objeto que recibe cumple con las condiciones descriptas anteriormente para ser restado. De ser así, imprimirá por pantalla un mensaje que dice: “El artículo ingresado puede ingresar al circuito de préstamos” y sino “El articulo ingresado no podrá ingresar a nuestro sistema”. 
+	El método agregarElemento corrobora si el objeto que recibe cumple con las condiciones descriptas anteriormente para ser prestado. De ser así, imprimirá por pantalla un mensaje que dice: “El artículo ingresado puede ingresar al circuito de préstamos” y sino “El articulo ingresado no podrá ingresar a nuestro sistema”. 
 
 2. Un prestigioso y muy exigente centro educativo requiere una aplicación para decidir quiénes se graduarán. Se dispone de alumnos que guardan su DNI, apellido, nombre y los exámenes realizados. 
 
