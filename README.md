@@ -397,4 +397,26 @@ Cada tipo de mascota debe tener un método el cual devuelve qué tipo de mascota
 	Las personas, los teléfonos móviles y las palomas mensajeras para cumplir con lo que les pide su partido político envían mensajes en apoyo de los dirigentes del partido al cual militan. Cada partido tiene un nombre, un dirección donde se encuentra la oficina central,  una cantidad de afiliados y una lista de los enviadores de mensajes. 
 
 	Se deberá hacer un método para que se pueda agregar un mensajero a dicha lista y otro titulado: hacer campaña. Este consiste en recorrer todos los mensajeros afiliados y  por cada uno enviar un mensaje que diga: “Vote por el partido para un mejor futuro”.
-	Este mensaje, si es dado por una paloma mensajera deberá ser precedido por el siguiente lema: “Lanzando un papelito que dice:”. Eso sí, hay que tener en cuenta que el mensaje sólo lo puede enviar si ya aprendió a volar. Si el mensaje se transmitE por un teléfono móvil al mensaje oficial del partido le antecederá: “Conectando con la antena más cercana” siempre y cuando el teléfono esté prendido y tenga crédito disponible. Por último, si un trabajador transmite el mensaje, primero habrá que verificar si está en su horario laboral y luego deberá decir antes del mensaje común: “Yo, *nombreTrabajador* te invito a que…” 
+	Este mensaje, si es dado por una paloma mensajera deberá ser precedido por el siguiente lema: “Lanzando un papelito que dice:”. Eso sí, hay que tener en cuenta que el mensaje sólo lo puede enviar si ya aprendió a volar. Si el mensaje se transmitE por un teléfono móvil al mensaje oficial del partido le antecederá: “Conectando con la antena más cercana” siempre y cuando el teléfono esté prendido y tenga crédito disponible. Por último, si un trabajador transmite el mensaje, primero habrá que verificar si está en su horario laboral y luego deberá decir antes del mensaje común: “Yo, *nombreTrabajador* te invito a que…”
+
+4. 	Crea un programa en Java para gestionar un equipo de fútbol argentino. De cada Jugador se almacenará el nombre, la fecha de nacimiento, la posición, provincia, historial de equipos por los que pasó y el número de camiseta.
+
+	Los arqueros tendrán como atributos adicionales el porcentaje de atajadas y la cantidad de goles recibidos, mientras que los demás jugadores del campo tendrán como atributos adicionales el porcentaje de los goles convertidos y  cantidad de asistencias realizadas.
+
+	Para poder fichar a un jugador se implementara una interfaz llamada Contrato con un método contratar() y otro que es renovar().
+
+	El método contratar deberá mostrar un mensaje de la forma: “El nombreJugador (con sus respectivos datos) se contrató en el nombreClub.” si cumple con determinados criterios, sino deberá lanzar una excepción personalizada. El criterio para poder contratar a todos los jugadores es que nunca haya jugado en el Club que ofrece el contrato. Ademas, en el caso de los arqueros, el porcentaje de atajadas deberá ser mayor a 60% y  los goles recibidos menor de 10. Para el resto de jugadores el porcentaje de los goles convertidos mayor a 30%  y mas de 10 asistencias realizadas.
+
+	El método renovar deberá mostrar un mensaje de la forma: “El nombreJugador (con sus respectivos datos) se renovó en el nombreClub.” si cumple con lo siguiente: Que el actual club donde esté jugando sea el mismo club que ofrece el contrato y que la edad del jugador no sea mayor de 35 años. En caso de que alguna no se cumpla, lanzar la excepción correspondiente dando detalle de por qué no se pudo realizar la renovación 
+
+	Para poder actualizar los porcentajes, goles en contra y asistencias de cada jugador en el sistema, se guardarán todos los partidos que fueron jugados. De esa forma, al agregar un partido se actualizará la información de los jugadores.
+
+5.	Crea un programa en Java para gestionar un restaurante. En este programa, se administrarán diferentes platos que se sirven en el restaurante. De cada plato se almacenarán los siguientes datos: nombre, descripción, precio y tipo (que puede ser "ENTRADA", "PLATO PRINCIPAL", "POSTRE", u otro tipo).
+
+	Como cualquier restaurante, contará con un menú que tiene todos los platos que ofrece el establecimiento. Para garantizar la calidad de estos y su incorporación al menú, se debe seguir un criterio específico para la contratación de chefs y la inclusión de nuevos platos.
+
+	Para poder hacer efectiva la contratación se deberá mostrar un mensaje de la forma: "El chef [nombreChef] se unió al equipo de [nombreRestaurante]." si cumple con determinados criterios: Los chefs deben tener experiencia culinaria previa y ser mayores de 18 años. Si no cumplen con estos requisitos, se debe lanzar una excepción personalizada.
+
+	Si quiero agregar un plato se deberá mostrar un mensaje de la forma: "El plato [nombrePlato] se agregó al menú de [nombreRestaurante]." si cumple con lo siguiente: el plato no debe estar ya en el menú y el chef a cargo del plato debe estar contratado en el restaurante. Si no se cumple alguna de estas condiciones, se debe lanzar la excepción correspondiente, proporcionando detalles sobre por qué no se pudo agregar el plato.
+
+	Desarrollar las clases con sus atributos y métodos necesarios para cumplir con todas las funcionalidades que se piden. Tener en cuenta que se pueden reutilizar clases ya creadas en otros ejercicios.
