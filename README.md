@@ -1,6 +1,6 @@
 # Laboratorio de programación orientada a objetos
 
-<!---
+<!--
 ## Unidad 0 - Introducción y repaso al laboratorio
 
 1.	Escribe un programa Java que realice lo siguiente: declarar una variable N de tipo int, una variable A de tipo double y una variable C de tipo char y asigna a cada una un valor. A continuación muestra por pantalla:
@@ -420,3 +420,4 @@ Cada tipo de mascota debe tener un método el cual devuelve qué tipo de mascota
 	Si quiero agregar un plato se deberá mostrar un mensaje de la forma: "El plato [nombrePlato] se agregó al menú de [nombreRestaurante]." si cumple con lo siguiente: el plato no debe estar ya en el menú y el chef a cargo del plato debe estar contratado en el restaurante. Si no se cumple alguna de estas condiciones, se debe lanzar la excepción correspondiente, proporcionando detalles sobre por qué no se pudo agregar el plato.
 
 	Desarrollar las clases con sus atributos y métodos necesarios para cumplir con todas las funcionalidades que se piden. Tener en cuenta que se pueden reutilizar clases ya creadas en otros ejercicios.
+ -->
