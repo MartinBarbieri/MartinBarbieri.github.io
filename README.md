@@ -1,6 +1,6 @@
 # Laboratorio de programación orientada a objetos
 
-<!--
+
 ## Unidad 0 - Introducción y repaso al laboratorio
 
 1.	Escribe un programa Java que realice lo siguiente: declarar una variable N de tipo int, una variable A de tipo double y una variable C de tipo char y asigna a cada una un valor. A continuación muestra por pantalla:
@@ -39,7 +39,8 @@ Si por ejemplo le hemos dado a N el valor 5, a A el valor 4.56 y a C el valor �
   -	Suma de los numeros negativos.
   
 9.  Pedir dos palabras al usuario e indicar si son iguales o no. (PalabrasIguales)
- 
+
+<!-- 
 ## Unidad 1 - Clases y objetos
 
 1.	Crea una clase llamada "Círculo" que tenga como atributos el radio. Hacer un constructor por defecto donde el radio sea 2 y otro parametrizdo. La clase debe tener getter y setter,  un método que calcule el área del círculo (pi * r^2) y otro método que calcule el perímetro del círculo (2 * pi * r).
