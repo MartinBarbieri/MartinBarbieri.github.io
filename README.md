@@ -40,7 +40,7 @@ Si por ejemplo le hemos dado a N el valor 5, a A el valor 4.56 y a C el valor �
   
 9.  Pedir dos palabras al usuario e indicar si son iguales o no. (PalabrasIguales)
 
-<!-- 
+
 ## Unidad 1 - Clases y objetos
 
 1.	Crea una clase llamada "Círculo" que tenga como atributos el radio. Hacer un constructor por defecto donde el radio sea 2 y otro parametrizdo. La clase debe tener getter y setter,  un método que calcule el área del círculo (pi * r^2) y otro método que calcule el perímetro del círculo (2 * pi * r).
@@ -76,7 +76,9 @@ Si por ejemplo le hemos dado a N el valor 5, a A el valor 4.56 y a C el valor �
     - agregarCafe (int cantidad): añade a la cafetera la cantidad de café indicada.
 
 8. Hacer una clase Cancion con los siguientes atributos: titulo y autor. Hacer un constructor parametrizado, un constructor por defecto que inicialice el titulo y el autor a cadenas vacias y los getters y setters de todos los atributos.
-    
+
+<!-- 
+
 ## Unidad 2 - Clase ArrayLists y for each
 
 1.	Crear un ArrayList de números enteros y mostrar su suma.
