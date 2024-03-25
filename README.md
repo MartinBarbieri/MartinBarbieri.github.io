@@ -70,14 +70,14 @@ Si por ejemplo le hemos dado a N el valor 5, a A el valor 4.56 y a C el valor �
     - Constructor por defecto: Establece la cantidad máxima en 1000 (c.c) y la actual en cero(cafeter vacía)
     - Constructor con la cantidad máxima de la cafetera. Inicializa la cantidad actual de café igual a la capacidad máxima.
     - Constructor con la cantidad máxima y la actual. Si la cantidad actual es mayor que la cantidad máxima que la cafeteraa le ajustará el máximo.
-    - llenarCafetera(): Hace que la cantidaad actual sea igual a la maxima.
+    - llenarCafetera(): Hace que la cantidad actual sea igual a la maxima.
     - servirTaza(int capacidad): Método que recibe la capacidad de la taza a la que se le va a servir café y llena la taza. Si la cantidad actual de café no alcanza para lenar la taza, se sirve lo que queda.
     - vaciarCafetera(): pone la cantidad de café actual en cero.
     - agregarCafe (int cantidad): añade a la cafetera la cantidad de café indicada.
 
 8. Hacer una clase Cancion con los siguientes atributos: titulo y autor. Hacer un constructor parametrizado, un constructor por defecto que inicialice el titulo y el autor a cadenas vacias y los getters y setters de todos los atributos.
 
-<!-- 
+ 
 
 ## Unidad 2 - Clase ArrayLists y for each
 
@@ -123,6 +123,8 @@ Si por ejemplo le hemos dado a N el valor 5, a A el valor 4.56 y a C el valor �
 7. Realizar un sistema que controle campeonatos de curling. Los equipos se deben anotar en el campeonato indicando sus jugadores y disponibilidad horaria del equipo dividida en turnos: mañana, tarde y noche de lunes a sábados. Los mismos tendrán un nombre, un barrio de procedencia, 10 jugadores y uno de ellos debe ser el capitán del equipo.
 De los jugadores se debe saber el nombre, fecha de nacimiento y el número de camiseta. Los números de camiseta no se pueden repetir dentro de un mismo equipo.
 El torneo es todos contra todos y el sistema debe definir los horarios de los partidos dependiendo de la disponibilidad horaria de los equipos. Se debe armar un fixture completo una vez que todos los equipos estén anotados. El fixture del torneo consta de partidos los cuales tienen un día, horario y equipos que jugarán.
+
+<!--
 
 ## Unidad 3 - Herencia
 
