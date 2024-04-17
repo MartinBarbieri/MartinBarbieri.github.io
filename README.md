@@ -124,7 +124,7 @@ Si por ejemplo le hemos dado a N el valor 5, a A el valor 4.56 y a C el valor �
 De los jugadores se debe saber el nombre, fecha de nacimiento y el número de camiseta. Los números de camiseta no se pueden repetir dentro de un mismo equipo.
 El torneo es todos contra todos y el sistema debe definir los horarios de los partidos dependiendo de la disponibilidad horaria de los equipos. Se debe armar un fixture completo una vez que todos los equipos estén anotados. El fixture del torneo consta de partidos los cuales tienen un día, horario y equipos que jugarán.
 
-<!--
+
 
 ## Unidad 3 - Herencia
 
@@ -178,6 +178,7 @@ El torneo es todos contra todos y el sistema debe definir los horarios de los pa
         
 	El sistema debe conservar un registro de todas las llamadas realizadas indicando: empleado origen, empleado destino, fecha de la llamada, duración de la llamada. Luego, el sistema debe ser capaz de entregar un listado de llamadas realizadas por cada empleado y el ranking de empleados que más tiempo llamaron al exterior.
 
+<!--
 ## Unidad 4 - Enums
 
 1. 	Hacer que las únicas editoriales de los libros que se crean puedan ser: Kapelusz, Sudamericana, Atlántida, el Ateneo, Interzona, Sur, Alianza.
