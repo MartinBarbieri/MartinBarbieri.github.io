@@ -178,14 +178,14 @@ El torneo es todos contra todos y el sistema debe definir los horarios de los pa
         
 	El sistema debe conservar un registro de todas las llamadas realizadas indicando: empleado origen, empleado destino, fecha de la llamada, duración de la llamada. Luego, el sistema debe ser capaz de entregar un listado de llamadas realizadas por cada empleado y el ranking de empleados que más tiempo llamaron al exterior.
 
-<!--
+
 ## Unidad 4 - Enums
 
 1. 	Hacer que las únicas editoriales de los libros que se crean puedan ser: Kapelusz, Sudamericana, Atlántida, el Ateneo, Interzona, Sur, Alianza.
 2. 	Realizar las modificaciones necesarias en el ejercicio 7 de la unidad 2 para que los únicos turnos posibles sean: Mañana, tarde o noche y los días vayan de lunes a domingo.
 3. 	Crear una clase enumerable donde se describan los colores junto a su código hexadecimal e implementarlo en las clases en las que pidan colores.
 4. 	Tener en cuenta que la tecnología de las televisores del ejercicio de repaso solo pueden ser las descriptas en el enunciado. ¿En otro enunciado de los que ya hicimos podes modificar los valores para crear clases enumerables? Hacelo
-
+<!--
 ## Unidad 5 - HashMaps y HashSets
 
 1. 	Realizar un sistema que controle la asistencia de un empleado a su trabajo. El empleado debe tener un nombre, apellido, teléfono, fecha de nacimiento y qué días de lunes a viernes debe asistir. 
