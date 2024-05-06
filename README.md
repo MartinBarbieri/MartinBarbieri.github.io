@@ -185,7 +185,10 @@ El torneo es todos contra todos y el sistema debe definir los horarios de los pa
 2. 	Realizar las modificaciones necesarias en el ejercicio 7 de la unidad 2 para que los únicos turnos posibles sean: Mañana, tarde o noche y los días vayan de lunes a domingo.
 3. 	Crear una clase enumerable donde se describan los colores junto a su código hexadecimal e implementarlo en las clases en las que pidan colores.
 4. 	Tener en cuenta que la tecnología de las televisores del ejercicio de repaso solo pueden ser las descriptas en el enunciado. ¿En otro enunciado de los que ya hicimos podes modificar los valores para crear clases enumerables? Hacelo
+
+   
 <!--
+
 ## Unidad 5 - HashMaps y HashSets
 
 1. 	Realizar un sistema que controle la asistencia de un empleado a su trabajo. El empleado debe tener un nombre, apellido, teléfono, fecha de nacimiento y qué días de lunes a viernes debe asistir. 
