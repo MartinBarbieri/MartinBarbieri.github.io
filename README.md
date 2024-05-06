@@ -184,7 +184,11 @@ El torneo es todos contra todos y el sistema debe definir los horarios de los pa
 1. 	Hacer que las únicas editoriales de los libros que se crean puedan ser: Kapelusz, Sudamericana, Atlántida, el Ateneo, Interzona, Sur, Alianza.
 2. 	Realizar las modificaciones necesarias en el ejercicio 7 de la unidad 2 para que los únicos turnos posibles sean: Mañana, tarde o noche y los días vayan de lunes a domingo.
 3. 	Crear una clase enumerable donde se describan los colores junto a su código hexadecimal e implementarlo en las clases en las que pidan colores.
-4. 	Tener en cuenta que la tecnología de las televisores del ejercicio de repaso solo pueden ser las descriptas en el enunciado. ¿En otro enunciado de los que ya hicimos podes modificar los valores para crear clases enumerables? Hacelo
+4. 	¿En otros enunciado de los que ya hicimos podes modificar los valores para crear clases enumerables? Hacelo en todos los que puedas
+5. 	En una tienda de electrónica venden distintos tipos de productos. Si bien todos tienen un nombre, precio y un stock, según en qué sección se encuentran son los datos que interesa almacenar.
+	Los equipos de sonido, que pertenecen a la sección Multimedia, tienen un atributo para indicar si tienen el modulo Bluetooth integrado o no. Además, en la misma sección encontramos televisores de los cuales interesa saber, además del nombre, precio y stock, qué tecnología utilizan (ultraHd – 4K - FullHd) y la resolución en pixeles.
+	Por otro lado, los cargadores portátiles que son de la sección cargadores, almacenarán también la cantidad de cargas que pueden hacer sin necesidad de recargarlos.
+	La tienda administra todos estos productos por lo que deberán crear los métodos necesarios que permitan agregar nuevos productos, modificarlos y eliminarlos. Además, la tienda quiere conocer cuál es su producto con mayor stock y cual el de menor.
 
    
 <!--
