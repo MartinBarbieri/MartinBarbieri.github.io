@@ -190,8 +190,6 @@ El torneo es todos contra todos y el sistema debe definir los horarios de los pa
 	Por otro lado, los cargadores portátiles que son de la sección cargadores, almacenarán también la cantidad de cargas que pueden hacer sin necesidad de recargarlos.
 	La tienda administra todos estos productos por lo que deberán crear los métodos necesarios que permitan agregar nuevos productos, modificarlos y eliminarlos. Además, la tienda quiere conocer cuál es su producto con mayor stock y cual el de menor.
 
-   
-<!--
 
 ## Unidad 5 - HashMaps y HashSets
 
@@ -257,7 +255,9 @@ Realizar:
     	- Continente con más población 
 
     	- Continente con menos población 
-     
+
+<!--
+
 ## Unidad 6 - Modificadores
 
 1) Hacer las modificaciones necesarias en cada una de las clases ya resueltas durante el año para que sean abstractas si es necesario o impementen métodos o atributos estáticos.
