@@ -256,7 +256,6 @@ Realizar:
 
     	- Continente con menos población 
 
-<!--
 
 ## Unidad 6 - Modificadores
 
@@ -303,6 +302,8 @@ En los casos donde la alegría es mayor a 1 al saludar se resta un punto de aleg
     Saluda nuevamente, esta vez con “miau” pero como su alegría ya estaba en 1 no se modifica. 
     
 Cada tipo de mascota debe tener un método el cual devuelve qué tipo de mascota es (Perro, Gato, Pajarito o Pez) 
+
+<!--
 
 ## Unidad 7 - Manejo de excepciones
 
