@@ -303,7 +303,7 @@ En los casos donde la alegría es mayor a 1 al saludar se resta un punto de aleg
     
 Cada tipo de mascota debe tener un método el cual devuelve qué tipo de mascota es (Perro, Gato, Pajarito o Pez) 
 
-<!--
+
 
 ## Unidad 7 - Manejo de excepciones
 
@@ -323,7 +323,7 @@ Cada tipo de mascota debe tener un método el cual devuelve qué tipo de mascota
 	    Throws. 
 	    Clase personalizada. 
 
-3.	Dado el ejercicio de sistema de alarmas que tiene un edificio (ejercicio 4, unidad 3), habrá que permitirle al usuario que pueda elegir de cuál 	de todos los dispositivos quiere obtener más información. Para esto habrá que pedirle al usuario que ingrese un número desde el 0 hasta la cantidad 	de alarmas que estén registradas. Acorde al número que elija es el dispositivo que se mostrará. 
+2.	Dado el ejercicio de sistema de alarmas que tiene un edificio (ejercicio 4, unidad 3), habrá que permitirle al usuario que pueda elegir de cuál 	de todos los dispositivos quiere obtener más información. Para esto habrá que pedirle al usuario que ingrese un número desde el 0 hasta la cantidad 	de alarmas que estén registradas. Acorde al número que elija es el dispositivo que se mostrará. 
 
 	Deberán tener en cuenta en la implementación si el usuario no ingresa un número entero o ingresa un número mayor a la cantidad de dispositivos que 	hay instalados en el edificio. No se deberá cortar la ejecución del programa por alguno de estos errores. 
 
@@ -372,6 +372,8 @@ Cada tipo de mascota debe tener un método el cual devuelve qué tipo de mascota
 			Al añadir personas al sistema todos los dni sean distintos.
 			Encuentre la bebida que quiere consumir y tenga esa cantidad que solicita.
 			Existen personas registradas para determinar el de mejor y peor coeficiente de hidratación.
+
+<!--
 
 ## Unidad 8 - Interfaces polimórficas
 
