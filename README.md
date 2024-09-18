@@ -373,7 +373,7 @@ Cada tipo de mascota debe tener un método el cual devuelve qué tipo de mascota
 			Encuentre la bebida que quiere consumir y tenga esa cantidad que solicita.
 			Existen personas registradas para determinar el de mejor y peor coeficiente de hidratación.
 
-<!--
+
 
 ## Unidad 8 - Interfaces polimórficas
 
@@ -436,4 +436,4 @@ Cada tipo de mascota debe tener un método el cual devuelve qué tipo de mascota
 	Si quiero agregar un plato se deberá mostrar un mensaje de la forma: "El plato [nombrePlato] se agregó al menú de [nombreRestaurante]." si cumple con lo siguiente: el plato no debe estar ya en el menú y el chef a cargo del plato debe estar contratado en el restaurante. Si no se cumple alguna de estas condiciones, se debe lanzar la excepción correspondiente, proporcionando detalles sobre por qué no se pudo agregar el plato.
 
 	Desarrollar las clases con sus atributos y métodos necesarios para cumplir con todas las funcionalidades que se piden. Tener en cuenta que se pueden reutilizar clases ya creadas en otros ejercicios.
- -->
+ <!---->
